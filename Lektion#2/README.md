@@ -6,6 +6,23 @@ Dieses Verzeichnis enthält alle Lernmaterialien für Lektion 2 des Schritte B1.
 
 This directory contains all learning materials for Lesson 2 of the Schritte B1.1 course. The materials are organized in a simple, user-friendly structure to enable an efficient and enjoyable learning experience.
 
+## 🔍 Quick Navigation
+
+- [Back to Main README](../README.md)
+- [Study Plan](Lektion%232-StudyPlan.md)
+- **Core Materials:**
+  - [Grammar](Core/Grammar.md)
+  - [Vocabulary](Core/Vocabulary.md)
+- **Practice Materials:**
+  - [Story](Practice/Story.md)
+  - [Dialogs](Practice/Dialogs.md)
+  - [Exercises](Practice/Exercises.md)
+- **Other Lessons:**
+  - [Lesson 1](../Lektion%231/README.md)
+  - [Lesson 3](../Lektion%233/README.md)
+  - [Lesson 4](../Lektion%234/README.md)
+- [Reference Documentation](../reference_docs/README.md)
+
 ## 📁 Verzeichnisstruktur (Directory Structure)
 
 ```
@@ -37,21 +54,21 @@ Alle Materialien verwenden ein einheitliches, einfaches Farbkodierungssystem:
 
 ### 📕 Kernmaterialien (Core Materials)
 
-- **Grammar.md**: Enthält alle Grammatikregeln der Lektion (Konjunktion: obwohl, Gradpartikeln, Relativpronomen und Relativsatz) in einer klaren, übersichtlichen Darstellung mit Beispielen und Erklärungen.
+- **[Grammar.md](Core/Grammar.md)**: Enthält alle Grammatikregeln der Lektion (Konjunktion: obwohl, Gradpartikeln, Relativpronomen und Relativsatz) in einer klaren, übersichtlichen Darstellung mit Beispielen und Erklärungen.
 
-- **Vocabulary.md**: Enthält alle Vokabeln der Lektion, thematisch geordnet mit Beispielen und Übersetzungen. Die Vokabeln sind in Kategorien wie "Gegensätze & Einschränkungen", "Bewertungen & Meinungen", "Beschreibungen & Eigenschaften" und "Kommunikation & Interaktion" eingeteilt.
+- **[Vocabulary.md](Core/Vocabulary.md)**: Enthält alle Vokabeln der Lektion, thematisch geordnet mit Beispielen und Übersetzungen. Die Vokabeln sind in Kategorien wie "Gegensätze & Einschränkungen", "Bewertungen & Meinungen", "Beschreibungen & Eigenschaften" und "Kommunikation & Interaktion" eingeteilt.
 
 ### 📝 Übungsmaterialien (Practice Materials)
 
-- **Story.md**: Eine Geschichte über Freundschaft und Freizeitaktivitäten, die alle Vokabeln und Grammatikstrukturen der Lektion in einem zusammenhängenden Kontext verwendet. Die Geschichte ist mit dem einheitlichen Farbkodierungssystem versehen, um das Verständnis zu erleichtern.
+- **[Story.md](Practice/Story.md)**: Eine Geschichte über Freundschaft und Freizeitaktivitäten, die alle Vokabeln und Grammatikstrukturen der Lektion in einem zusammenhängenden Kontext verwendet. Die Geschichte ist mit dem einheitlichen Farbkodierungssystem versehen, um das Verständnis zu erleichtern.
 
-- **Dialogs.md**: Realistische Dialogszenarien zum Üben der Konversation in verschiedenen Kontexten wie Vorschläge machen, Meinungen ausdrücken, Zustimmung und Ablehnung. Auch hier wird das einheitliche Farbkodierungssystem verwendet.
+- **[Dialogs.md](Practice/Dialogs.md)**: Realistische Dialogszenarien zum Üben der Konversation in verschiedenen Kontexten wie Vorschläge machen, Meinungen ausdrücken, Zustimmung und Ablehnung. Auch hier wird das einheitliche Farbkodierungssystem verwendet.
 
-- **Exercises.md**: Praktische Übungen zu allen Grammatikthemen und Vokabeln der Lektion, mit Lösungen am Ende des Dokuments. Die Übungen umfassen Lückentexte, Umformungen, Satzbildung und mehr.
+- **[Exercises.md](Practice/Exercises.md)**: Praktische Übungen zu allen Grammatikthemen und Vokabeln der Lektion, mit Lösungen am Ende des Dokuments. Die Übungen umfassen Lückentexte, Umformungen, Satzbildung und mehr.
 
 ### 📅 Studienplan (Study Plan)
 
-- **Lektion#2-StudyPlan.md**: Ein detaillierter Studienplan, der erklärt, wie die verschiedenen Materialien am besten genutzt werden können, mit einem empfohlenen 4-Stunden-Lernplan.
+- **[Lektion#2-StudyPlan.md](Lektion%232-StudyPlan.md)**: Ein detaillierter Studienplan, der erklärt, wie die verschiedenen Materialien am besten genutzt werden können, mit einem empfohlenen 4-Stunden-Lernplan.
 
 ## 🛤️ Empfohlener Lernweg (Recommended Learning Path)
 
@@ -93,17 +110,25 @@ Alle Materialien verwenden ein einheitliches, einfaches Farbkodierungssystem:
 
 ## 🔄 Grammatikfokus (Grammar Focus)
 
-- **Konjunktion: obwohl** (Conjunction: although)
+- **[Konjunktion: obwohl](Core/Grammar.md#konjunktion-obwohl-conjunction-although)** (Conjunction: although)
   - Beispiel: "Tim spielt Fußball, **obwohl** es regnet."
 
-- **Gradpartikeln** (Degree particles)
+- **[Gradpartikeln](Core/Grammar.md#gradpartikeln-degree-particles)** (Degree particles)
   - Beispiel: "Der neue Superhelden-Film ist **echt cool**!"
 
-- **Relativpronomen und Relativsatz** (Relative pronouns and clauses)
+- **[Relativpronomen und Relativsatz](Core/Grammar.md#relativpronomen-und-relativsatz-relative-pronouns-and-clauses)** (Relative pronouns and clauses)
   - Beispiel: "Das ist der Junge, **der** Fußball spielt."
 
-- **Kommunikationsphrasen** (Communication phrases)
+- **[Kommunikationsphrasen](Core/Grammar.md#kommunikationsphrasen-communication-phrases)** (Communication phrases)
   - Beispiel: "Lass uns doch...", "Ich finde das keine so gute Idee."
+
+---
+
+## 🔗 Verbindungen zu anderen Materialien (Connections to Other Materials)
+
+- Für eine Übersicht über die Grammatikprogression, siehe [GrammarProgression.md](../reference_docs/GrammarProgression.md#lektion-2-grammar-focus)
+- Für thematisch organisierte Vokabeln, siehe [VocabularyThemes.md](../reference_docs/VocabularyThemes.md)
+- Für strukturierte Lernwege, siehe [LearningPathways.md](../reference_docs/LearningPathways.md)
 
 ---
 

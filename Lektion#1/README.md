@@ -6,6 +6,23 @@ Dieses Verzeichnis enthält alle Lernmaterialien für Lektion 1 des Schritte B1.
 
 This directory contains all learning materials for Lesson 1 of the Schritte B1.1 course. The materials are organized in a simple, user-friendly structure to enable an efficient and enjoyable learning experience.
 
+## 🔍 Quick Navigation
+
+- [Back to Main README](../README.md)
+- [Study Plan](Lektion%231-StudyPlan.md)
+- **Core Materials:**
+  - [Grammar](Core/Grammar.md)
+  - [Vocabulary](Core/Vocabulary.md)
+- **Practice Materials:**
+  - [Story](Practice/Story.md)
+  - [Dialogs](Practice/Dialogs.md)
+  - [Exercises](Practice/Exercises.md)
+- **Other Lessons:**
+  - [Lesson 2](../Lektion%232/README.md)
+  - [Lesson 3](../Lektion%233/README.md)
+  - [Lesson 4](../Lektion%234/README.md)
+- [Reference Documentation](../reference_docs/README.md)
+
 ## 📁 Verzeichnisstruktur (Directory Structure)
 
 ```
@@ -37,21 +54,21 @@ Alle Materialien verwenden ein einheitliches, einfaches Farbkodierungssystem:
 
 ### 📕 Kernmaterialien (Core Materials)
 
-- **Grammar.md**: Enthält alle Grammatikregeln der Lektion (Präteritum, Konjunktion: als, Plusquamperfekt) in einer klaren, übersichtlichen Darstellung mit Beispielen und Erklärungen.
+- **[Grammar.md](Core/Grammar.md)**: Enthält alle Grammatikregeln der Lektion (Präteritum, Konjunktion: als, Plusquamperfekt) in einer klaren, übersichtlichen Darstellung mit Beispielen und Erklärungen.
 
-- **Vocabulary.md**: Enthält alle Vokabeln der Lektion, thematisch geordnet mit Beispielen und Übersetzungen. Die Vokabeln sind in Kategorien wie "Vergangenheit & Erinnerungen", "Zeitangaben", "Glücksbringer & Wünsche" und "Alltagswörter & Ausdrücke" eingeteilt.
+- **[Vocabulary.md](Core/Vocabulary.md)**: Enthält alle Vokabeln der Lektion, thematisch geordnet mit Beispielen und Übersetzungen. Die Vokabeln sind in Kategorien wie "Vergangenheit & Erinnerungen", "Zeitangaben", "Glücksbringer & Wünsche" und "Alltagswörter & Ausdrücke" eingeteilt.
 
 ### 📝 Übungsmaterialien (Practice Materials)
 
-- **Story.md**: Eine Geschichte über Erinnerungen und Erlebnisse aus der Vergangenheit, die alle Vokabeln und Grammatikstrukturen der Lektion in einem zusammenhängenden Kontext verwendet. Die Geschichte ist mit dem einheitlichen Farbkodierungssystem versehen, um das Verständnis zu erleichtern.
+- **[Story.md](Practice/Story.md)**: Eine Geschichte über Erinnerungen und Erlebnisse aus der Vergangenheit, die alle Vokabeln und Grammatikstrukturen der Lektion in einem zusammenhängenden Kontext verwendet. Die Geschichte ist mit dem einheitlichen Farbkodierungssystem versehen, um das Verständnis zu erleichtern.
 
-- **Dialogs.md**: Realistische Dialogszenarien zum Üben der Konversation in verschiedenen Kontexten wie Kindheitserinnerungen, Unfallbeschreibungen, Glücksbringer und Wünsche. Auch hier wird das einheitliche Farbkodierungssystem verwendet.
+- **[Dialogs.md](Practice/Dialogs.md)**: Realistische Dialogszenarien zum Üben der Konversation in verschiedenen Kontexten wie Kindheitserinnerungen, Unfallbeschreibungen, Glücksbringer und Wünsche. Auch hier wird das einheitliche Farbkodierungssystem verwendet.
 
-- **Exercises.md**: Praktische Übungen zu allen Grammatikthemen und Vokabeln der Lektion, mit Lösungen am Ende des Dokuments. Die Übungen umfassen Lückentexte, Umformungen, Satzbildung und mehr.
+- **[Exercises.md](Practice/Exercises.md)**: Praktische Übungen zu allen Grammatikthemen und Vokabeln der Lektion, mit Lösungen am Ende des Dokuments. Die Übungen umfassen Lückentexte, Umformungen, Satzbildung und mehr.
 
 ### 📅 Studienplan (Study Plan)
 
-- **Lektion#1-StudyPlan.md**: Ein detaillierter Studienplan, der erklärt, wie die verschiedenen Materialien am besten genutzt werden können, mit einem empfohlenen 4-Stunden-Lernplan.
+- **[Lektion#1-StudyPlan.md](Lektion%231-StudyPlan.md)**: Ein detaillierter Studienplan, der erklärt, wie die verschiedenen Materialien am besten genutzt werden können, mit einem empfohlenen 4-Stunden-Lernplan.
 
 ## 🛤️ Empfohlener Lernweg (Recommended Learning Path)
 
@@ -93,17 +110,25 @@ Alle Materialien verwenden ein einheitliches, einfaches Farbkodierungssystem:
 
 ## 🔄 Grammatikfokus (Grammar Focus)
 
-- **Präteritum** (Simple Past Tense)
+- **[Präteritum](Core/Grammar.md#präteritum-simple-past)** (Simple Past Tense)
   - Beispiel: "35 Jahre lang **spielte** Manfred Schulze jede Woche Lotto."
 
-- **Konjunktion: als** (when - for one-time past events)
+- **[Konjunktion: als](Core/Grammar.md#konjunktion-als-when---for-one-time-past-events)** (when - for one-time past events)
   - Beispiel: "**Als** ich 5 Jahre alt war, hatte ich Angst vor Hunden."
 
-- **Plusquamperfekt** (Past Perfect)
+- **[Plusquamperfekt](Core/Grammar.md#plusquamperfekt-past-perfect)** (Past Perfect)
   - Beispiel: "Ich hatte Bauchschmerzen, weil ich zu viele Kirschen **gegessen hatte**."
 
-- **Kommunikationsphrasen** (Communication phrases)
+- **[Kommunikationsphrasen](Core/Grammar.md#kommunikationsphrasen-communication-phrases)** (Communication phrases)
   - Beispiel: "Als Kind war ich immer...", "Der Unfall ist am... in... passiert."
+
+---
+
+## 🔗 Verbindungen zu anderen Materialien (Connections to Other Materials)
+
+- Für eine Übersicht über die Grammatikprogression, siehe [GrammarProgression.md](../reference_docs/GrammarProgression.md#lektion-1-grammar-focus)
+- Für thematisch organisierte Vokabeln, siehe [VocabularyThemes.md](../reference_docs/VocabularyThemes.md)
+- Für strukturierte Lernwege, siehe [LearningPathways.md](../reference_docs/LearningPathways.md)
 
 ---
 

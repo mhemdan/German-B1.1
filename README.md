@@ -2,16 +2,25 @@
 
 This repository contains structured learning materials for German language at the B1.1 level, based on the Schritte International curriculum.
 
+## Quick Navigation
+
+- [Lesson 1: Past Tenses & Experiences](Lektion%231/README.md)
+- [Lesson 2: Contrasts & Descriptions](Lektion%232/README.md)
+- [Lesson 3: Health & Genitive Case](Lektion%233/README.md)
+- [Lesson 4: Konjunktiv II & Communication](Lektion%234/README.md)
+- [Reference Documentation](reference_docs/README.md)
+- [Templates for New Lessons](Templates/README.md)
+
 ## Directory Structure
 
 ### Lesson Directories
 
 Each lesson (Lektion) is organized in a structured directory with consistent formatting:
 
-- **Lektion#1/** - Past tenses, experiences, and memories
-- **Lektion#2/** - Contrasts, descriptions, and opinions
-- **Lektion#3/** - Health, passive voice, and genitive case
-- **Lektion#4/** - Konjunktiv II, wegen + Genitiv, and communication
+- **[Lektion#1/](Lektion%231/README.md)** - Past tenses, experiences, and memories
+- **[Lektion#2/](Lektion%232/README.md)** - Contrasts, descriptions, and opinions
+- **[Lektion#3/](Lektion%233/README.md)** - Health, passive voice, and genitive case
+- **[Lektion#4/](Lektion%234/README.md)** - Konjunktiv II, wegen + Genitiv, and communication
 
 Each lesson directory contains:
 
@@ -30,19 +39,19 @@ Lektion#X/
 
 ### Reference Documentation
 
-The `reference_docs/` directory contains cross-lesson reference materials:
+The [`reference_docs/`](reference_docs/README.md) directory contains cross-lesson reference materials:
 
-- **GermanLearningHub.md** - Central index connecting all reference files
-- **GermanConnections.md** - Hub for connecting concepts across lessons
-- **GrammarProgression.md** - Visualizes grammar concept progression
-- **VocabularyThemes.md** - Organizes vocabulary by theme
-- **LearningPathways.md** - Provides structured learning routes
+- **[GermanLearningHub.md](reference_docs/GermanLearningHub.md)** - Central index connecting all reference files
+- **[GermanConnections.md](reference_docs/GermanConnections.md)** - Hub for connecting concepts across lessons
+- **[GrammarProgression.md](reference_docs/GrammarProgression.md)** - Visualizes grammar concept progression
+- **[VocabularyThemes.md](reference_docs/VocabularyThemes.md)** - Organizes vocabulary by theme
+- **[LearningPathways.md](reference_docs/LearningPathways.md)** - Provides structured learning routes
 
 ### Support Directories
 
-- **Templates/** - Templates for creating new lessons
-- **memory-bank/** - Reference materials and project documentation
-- **backup_files/** - Archive of original files
+- **[Templates/](Templates/README.md)** - Templates for creating new lessons
+- **[memory-bank/](memory-bank/projectbrief.md)** - Reference materials and project documentation
+- **[backup_files/](backup_files/README.md)** - Archive of original files
 
 ## Features
 
@@ -63,10 +72,21 @@ All materials use a consistent color-coding system:
 
 ## Getting Started
 
-1. Start with the lesson README.md files to get an overview of each lesson
-2. Follow the study plans in each Lektion#X-StudyPlan.md file
-3. Use the reference documentation in the reference_docs/ directory to see connections between concepts
-4. Explore the Templates/ directory if you want to create your own lesson materials
+1. Start with the lesson README.md files to get an overview of each lesson:
+   - [Lesson 1 Overview](Lektion%231/README.md)
+   - [Lesson 2 Overview](Lektion%232/README.md)
+   - [Lesson 3 Overview](Lektion%233/README.md)
+   - [Lesson 4 Overview](Lektion%234/README.md)
+
+2. Follow the study plans in each lesson:
+   - [Lesson 1 Study Plan](Lektion%231/Lektion%231-StudyPlan.md)
+   - [Lesson 2 Study Plan](Lektion%232/Lektion%232-StudyPlan.md)
+   - [Lesson 3 Study Plan](Lektion%233/Lektion%233-StudyPlan.md)
+   - [Lesson 4 Study Plan](Lektion%234/Lektion%234-StudyPlan.md)
+
+3. Use the [reference documentation](reference_docs/README.md) to see connections between concepts
+
+4. Explore the [Templates directory](Templates/README.md) if you want to create your own lesson materials
 
 ## Learning Approach
 

@@ -2,6 +2,25 @@
 
 Diese Datei enthält alle wichtigen Vokabeln aus Lektion 2, thematisch geordnet mit Beispielen und Übersetzungen.
 
+## 🔍 Quick Navigation
+
+- [Back to Lesson 2 Overview](../README.md)
+- [Study Plan](../Lektion%232-StudyPlan.md)
+- [Grammar](Grammar.md)
+- **Vocabulary Sections:**
+  - [Gegensätze & Einschränkungen](#1️⃣-gegensätze--einschränkungen-contrasts--limitations)
+  - [Bewertungen & Meinungen](#2️⃣-bewertungen--meinungen-evaluations--opinions)
+  - [Beschreibungen & Eigenschaften](#3️⃣-beschreibungen--eigenschaften-descriptions--characteristics)
+  - [Unterhaltung & Medien](#4️⃣-unterhaltung--medien-entertainment--media)
+  - [Personen & Beziehungen](#5️⃣-personen--beziehungen-people--relationships)
+  - [Kommunikation & Interaktion](#6️⃣-kommunikation--interaktion-communication--interaction)
+  - [Verben mit Dativ](#7️⃣-verben-mit-dativ-verbs-with-dative)
+- **Other Lessons:**
+  - [Lesson 1](../../Lektion%231/README.md)
+  - [Lesson 3](../../Lektion%233/README.md)
+  - [Lesson 4](../../Lektion%234/README.md)
+- [Reference Documentation](../../reference_docs/README.md)
+
 ## 🎨 Farbkodierung (Color Coding)
 
 In allen Materialien verwenden wir das folgende Farbkodierungssystem:

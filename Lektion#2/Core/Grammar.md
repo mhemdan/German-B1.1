@@ -2,6 +2,22 @@
 
 Diese Datei enthält alle Grammatikregeln aus Lektion 2, mit Erklärungen, Beispielen und Übungen, um das Lernen zu erleichtern.
 
+## 🔍 Quick Navigation
+
+- [Back to Lesson 2 Overview](../README.md)
+- [Study Plan](../Lektion%232-StudyPlan.md)
+- [Vocabulary](Vocabulary.md)
+- **Grammar Sections:**
+  - [Konjunktion: obwohl (although)](#1️⃣-konjunktion-obwohl-although)
+  - [Gradpartikeln (Degree particles)](#2️⃣-gradpartikeln-degree-particles)
+  - [Relativpronomen und Relativsatz](#3️⃣-relativpronomen-und-relativsatz-relative-pronouns-and-clauses)
+  - [Kommunikationsphrasen](#4️⃣-kommunikationsphrasen-communication-phrases)
+- **Other Lessons:**
+  - [Lesson 1](../../Lektion%231/README.md)
+  - [Lesson 3](../../Lektion%233/README.md)
+  - [Lesson 4](../../Lektion%234/README.md)
+- [Reference Documentation](../../reference_docs/README.md)
+
 ## 📋 Übersicht (Overview)
 
 In Lektion 2 lernen Sie die folgenden Grammatikthemen:

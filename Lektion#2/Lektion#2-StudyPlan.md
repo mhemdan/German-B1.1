@@ -6,31 +6,47 @@ Dieser Studienplan führt Sie durch die Lernmaterialien für Lektion 2 und biete
 
 This study plan guides you through the learning materials for Lesson 2 and provides a structured approach to effectively learn the vocabulary and grammar.
 
+## 🔍 Quick Navigation
+
+- [Back to Lesson 2 Overview](README.md)
+- **Core Materials:**
+  - [Grammar](Core/Grammar.md)
+  - [Vocabulary](Core/Vocabulary.md)
+- **Practice Materials:**
+  - [Story](Practice/Story.md)
+  - [Dialogs](Practice/Dialogs.md)
+  - [Exercises](Practice/Exercises.md)
+- **Other Lessons:**
+  - [Lesson 1](../Lektion%231/README.md)
+  - [Lesson 3](../Lektion%233/README.md)
+  - [Lesson 4](../Lektion%234/README.md)
+- [Main README](../README.md)
+
 ---
 
 ## 📚 Materialien (Materials)
 
 ### 📕 Kernmaterialien (Core Materials)
 
-1. **Core/Grammar.md**
+1. **[Core/Grammar.md](Core/Grammar.md)**
    - Enthält alle Grammatikregeln: Konjunktion: obwohl, Gradpartikeln, Relativpronomen und Relativsatz und Kommunikationsphrasen
    - Contains all grammar rules: Conjunction: obwohl (although), Degree particles, Relative pronouns and clauses, and Communication phrases
 
-2. **Core/Vocabulary.md**
+2. **[Core/Vocabulary.md](Core/Vocabulary.md)**
    - Enthält alle Vokabeln mit Beispielen und Übersetzungen, thematisch geordnet
    - Contains all vocabulary with examples and translations, organized by theme
 
 ### 📝 Übungsmaterialien (Practice Materials)
 
-1. **Practice/Story.md**
+1. **[Practice/Story.md](Practice/Story.md)**
    - Geschichte mit allen Vokabeln und Grammatikstrukturen, farblich markiert
    - Story with all vocabulary and grammar structures, color-coded
 
-2. **Practice/Dialogs.md**
+2. **[Practice/Dialogs.md](Practice/Dialogs.md)**
    - Dialogszenarien zum Üben der Konversation
    - Dialogue scenarios for conversation practice
 
-3. **Practice/Exercises.md**
+3. **[Practice/Exercises.md](Practice/Exercises.md)**
    - Praktische Übungen zu Grammatik und Vokabeln mit Lösungen
    - Practical exercises on grammar and vocabulary with solutions
 

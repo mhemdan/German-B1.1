@@ -2,6 +2,25 @@
 
 Diese Datei enthält alle wichtigen Vokabeln aus Lektion 1, thematisch geordnet mit Beispielen und Übersetzungen.
 
+## 🔍 Quick Navigation
+
+- [Back to Lesson 1 Overview](../README.md)
+- [Study Plan](../Lektion%231-StudyPlan.md)
+- [Grammar](Grammar.md)
+- **Vocabulary Sections:**
+  - [Vergangenheit & Erinnerungen](#1️⃣-vergangenheit--erinnerungen-past--memories)
+  - [Unfälle & Ereignisse](#2️⃣-unfälle--ereignisse-accidents--events)
+  - [Zeitangaben](#3️⃣-zeitangaben-time-expressions)
+  - [Glücksbringer & Wünsche](#4️⃣-glücksbringer--wünsche-lucky-charms--wishes)
+  - [Alltagswörter & Ausdrücke](#5️⃣-alltagswörter--ausdrücke-everyday-words--expressions)
+  - [Verben im Präteritum](#6️⃣-verben-im-präteritum-verbs-in-simple-past)
+  - [Modalverben im Präteritum](#7️⃣-modalverben-im-präteritum-modal-verbs-in-simple-past)
+- **Other Lessons:**
+  - [Lesson 2](../../Lektion%232/README.md)
+  - [Lesson 3](../../Lektion%233/README.md)
+  - [Lesson 4](../../Lektion%234/README.md)
+- [Reference Documentation](../../reference_docs/README.md)
+
 ## 🎨 Farbkodierung (Color Coding)
 
 In allen Materialien verwenden wir das folgende Farbkodierungssystem:
