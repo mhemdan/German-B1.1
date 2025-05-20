@@ -1,0 +1,125 @@
+# Cline Rules for German Language Learning Project
+
+## Project Patterns
+
+### File Naming
+- Always use the format `Lektion#[number]` as the base name
+- Add suffixes to indicate special formats (e.g., `-Grammar-Memorization`, `-Notion`)
+- Maintain consistent capitalization in filenames
+- For connection system files, use descriptive names (e.g., `GermanConnections.md`, `VocabularyThemes.md`)
+
+### Content Formatting
+- Use emoji strategically to enhance engagement and visual learning
+- Implement semantic categorization for vocabulary rather than alphabetical ordering
+- Include both German and English examples for all vocabulary
+- Use flag emoji (🇩🇪 and 🇬🇧) to visually distinguish between languages
+- Structure grammar explanations with consistent sections (What is it?, How it works, Examples, etc.)
+- Use Mermaid diagrams for visualizing connections between concepts
+
+### CSV Formatting
+- Use double quotes around fields containing commas or line breaks
+- Use HTML `<br>` tags for line breaks within fields
+- First column should contain German terms, second column English translations
+- Include grammar information (gender, plural forms) with the term
+
+### Markdown Formatting
+- Use heading levels consistently (# for main title, ## for sections, ### for subsections)
+- Include code blocks for syntax patterns
+- Use tables for organized reference information
+- Implement emoji as visual markers and engagement elements
+- Use bold and italic formatting strategically for emphasis
+
+### Connection System
+- Use tags to identify concepts by Lektion, level, and type
+- Maintain consistent tag formatting (e.g., #Lektion1, #B1.1, #Verb)
+- Include links to source files for all referenced concepts
+- Use Mermaid diagrams for visualizing relationships
+- Organize content by theme rather than by Lektion when appropriate
+- Provide multiple learning pathways based on different goals and styles
+- Keep the GermanLearningHub.md file updated as the central navigation point
+
+## User Preferences
+
+### Learning Approach
+- Focus on contextual learning rather than rote memorization
+- Provide memory tricks and mnemonics for complex concepts
+- Connect new grammar concepts to previously learned material
+- Include practical, everyday examples
+- Use visual elements to enhance memorization
+- Offer multiple learning pathways based on different learning styles
+- Provide structured study plans for different time commitments
+
+### Content Organization
+- Group vocabulary by semantic categories
+- Present grammar concepts with clear structure and progression
+- Include practice exercises for active learning
+- Provide "What I Can Do Now" sections for progress tracking
+- Cross-reference related concepts
+- Use tags to create connections between related items
+- Organize content by theme across different Lektionen
+
+## Technical Considerations
+
+### Anki Integration
+- Ensure CSV files are properly formatted for Anki import
+- Consider adding tags for better organization in Anki
+- Test imports before finalizing CSV files
+- Include context in flashcards when possible
+
+### Notion Integration
+- Use Notion-friendly formatting for tables and content
+- Ensure exported files maintain proper structure
+- Consider Notion database properties for enhanced organization
+
+### Mermaid Diagrams
+- Use flowchart TD for hierarchical relationships
+- Use mindmap for thematic groupings
+- Keep diagrams simple and focused
+- Use consistent color schemes across diagrams
+- Include text labels on connections to explain relationships
+- Test diagrams in a Markdown previewer before committing
+
+## German Language Specifics
+
+### Grammar Notation
+- Always include gender for nouns (der/die/das)
+- Show plural forms for nouns
+- For verbs, indicate past participle forms and auxiliary verbs
+- For adjectives, note any irregular comparative/superlative forms
+- For prepositions, note which case they require
+
+### Example Sentences
+- Use natural, contemporary German
+- Include everyday situations and contexts
+- Ensure examples demonstrate the specific grammar point or vocabulary usage
+- Provide clear translations that capture meaning rather than literal translation
+
+## Connection System Maintenance
+
+### Adding New Content
+- When adding new Lektionen, update all connection files
+- Add new grammar concepts to GrammarProgression.md
+- Add new vocabulary to appropriate themes in VocabularyThemes.md
+- Update learning pathways in LearningPathways.md
+- Add new tags to the tag index in GermanConnections.md
+
+### Tagging System
+- Use #Lektion[number] for lesson-specific content
+- Use #A1, #A2, #B1.1 for proficiency levels
+- Use #Noun, #Verb, #Adjective, etc. for word types
+- Use #Conjunction, #Case, #Tense, etc. for grammar categories
+- Use #Theme for vocabulary themes
+- Maintain consistent tag formatting across all files
+
+### Cross-Referencing
+- Always include links to source files when referencing content
+- Use relative links to ensure portability
+- Provide bidirectional links where appropriate
+- Update cross-references when content changes
+
+### Visual Elements
+- Maintain consistent color schemes across all diagrams
+- Use the same style for similar types of diagrams
+- Keep diagrams simple and focused on one concept
+- Include legends or explanations for complex diagrams
+- Test all diagrams in a Markdown previewer before committing
