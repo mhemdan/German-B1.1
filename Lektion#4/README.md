@@ -13,7 +13,9 @@ Lektion#4/
 │
 ├── Core/                         # Kernmaterialien (Core materials)
 │   ├── Grammar.md                # Grammatik (Grammar)
-│   └── Vocabulary.md             # Vokabeln (Vocabulary)
+│   ├── Grammar-Enhanced.html     # Erweiterte Grammatik (Enhanced grammar)
+│   ├── Vocabulary.md             # Vokabeln (Vocabulary)
+│   └── Vocabulary-Enhanced.md    # Erweiterte Vokabeln (Enhanced vocabulary)
 │
 ├── Practice/                     # Übungsmaterialien (Practice materials)
 │   ├── Story.md                  # Geschichte mit Farbkodierung (Color-coded story)
@@ -39,7 +41,11 @@ Alle Materialien verwenden ein einheitliches, einfaches Farbkodierungssystem:
 
 - **Grammar.md**: Enthält alle Grammatikregeln der Lektion (Konjunktiv II: Irreale Bedingungen, Präposition: wegen + Genitiv) in einer klaren, übersichtlichen Darstellung mit Beispielen und Erklärungen.
 
+- **Grammar-Enhanced.html**: Eine erweiterte Version der Grammatik mit interaktiven Elementen und visuellen Hilfen zum besseren Verständnis.
+
 - **Vocabulary.md**: Enthält alle Vokabeln der Lektion, thematisch geordnet mit Beispielen und Übersetzungen. Die Vokabeln sind in Kategorien wie "Sprachen & Sprachenlernen", "Kommunikation", "Hypothetische Situationen", "Begründungen & Wichtigkeit" und "Alltagswörter & Ausdrücke" eingeteilt.
+
+- **Vocabulary-Enhanced.md**: Eine erweiterte Version der Vokabelliste mit Gedächtnisstützen, Visualisierungstechniken und interaktiven Lernaktivitäten, die das Memorieren der Vokabeln erleichtern.
 
 ### 📝 Übungsmaterialien (Practice Materials)
 
@@ -59,8 +65,9 @@ Alle Materialien verwenden ein einheitliches, einfaches Farbkodierungssystem:
    - Lesen Sie den Studienplan, um einen Überblick zu erhalten
 
 2. **Vokabeln lernen (30 Min.)**
-   - Arbeiten Sie mit **Vocabulary.md**
+   - Arbeiten Sie mit **Vocabulary.md** oder **Vocabulary-Enhanced.md**
    - Konzentrieren Sie sich auf die Vokabeln, die für Sie neu sind
+   - Nutzen Sie die Gedächtnisstützen in der erweiterten Version für besseres Behalten
 
 3. **Grammatik verstehen (30 Min.)**
    - Arbeiten Sie mit **Grammar.md**
