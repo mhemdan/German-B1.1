@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technical Context</title>
+    
+<style>
+    body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        line-height: 1.6;
+        color: #333;
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+    h1, h2, h3, h4, h5, h6 {
+        margin-top: 24px;
+        margin-bottom: 16px;
+        font-weight: 600;
+        line-height: 1.25;
+    }
+    h1 {
+        font-size: 2em;
+        border-bottom: 1px solid #eaecef;
+        padding-bottom: 0.3em;
+    }
+    h2 {
+        font-size: 1.5em;
+        border-bottom: 1px solid #eaecef;
+        padding-bottom: 0.3em;
+    }
+    h3 {
+        font-size: 1.25em;
+    }
+    table {
+        border-collapse: collapse;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    th, td {
+        border: 1px solid #ddd;
+        padding: 8px 12px;
+        text-align: left;
+    }
+    th {
+        background-color: #f6f8fa;
+        font-weight: 600;
+    }
+    tr:nth-child(even) {
+        background-color: #f6f8fa;
+    }
+    blockquote {
+        padding: 0 1em;
+        color: #6a737d;
+        border-left: 0.25em solid #dfe2e5;
+        margin: 0 0 16px 0;
+    }
+    .vocabulary {
+        color: #e53935;
+        font-weight: bold;
+    }
+    .grammar {
+        color: #1e88e5;
+        font-weight: bold;
+    }
+    .example {
+        color: #43a047;
+        font-weight: bold;
+    }
+    .communication {
+        color: #8e24aa;
+        font-weight: bold;
+    }
+    hr {
+        height: 0.25em;
+        padding: 0;
+        margin: 24px 0;
+        background-color: #e1e4e8;
+        border: 0;
+    }
+    code {
+        font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+        background-color: rgba(27, 31, 35, 0.05);
+        padding: 0.2em 0.4em;
+        border-radius: 3px;
+    }
+    pre {
+        background-color: #f6f8fa;
+        border-radius: 3px;
+        padding: 16px;
+        overflow: auto;
+        font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+    }
+    .correct {
+        color: #43a047;
+    }
+    .incorrect {
+        color: #e53935;
+        text-decoration: line-through;
+    }
+    a {
+        color: #0366d6;
+        text-decoration: none;
+    }
+    a:hover {
+        text-decoration: underline;
+    }
+    /* Navigation bar */
+    .navbar {
+        background-color: #3f51b5;
+        color: white;
+        padding: 10px 20px;
+        margin-bottom: 20px;
+        border-radius: 5px;
+    }
+    .navbar a {
+        color: white;
+        margin-right: 15px;
+        text-decoration: none;
+    }
+    .navbar a:hover {
+        text-decoration: underline;
+    }
+</style>
+
+</head>
+<body>
+    <div class="navbar">
+        <a href="../../index.html">Home</a>
+        <a href="../../Lektion%231/README.html">Lektion 1</a>
+        <a href="../../Lektion%232/README.html">Lektion 2</a>
+        <a href="../../Lektion%233/README.html">Lektion 3</a>
+        <a href="../../Lektion%234/README.html">Lektion 4</a>
+        <a href="../../reference_docs/README.html">Reference</a>
+    </div>
+    <h1 id="technical-context">Technical Context</h1>
+<h2 id="technologies-used">Technologies Used</h2>
+<h3 id="file-formats">File Formats</h3>
+<ul>
+<li><strong>CSV (Comma-Separated Values)</strong></li>
+<li>Used for vocabulary lists</li>
+<li>Compatible with Anki import</li>
+<li>
+<p>Simple two-column format (German and English)</p>
+</li>
+<li>
+<p><strong>Markdown (.md)</strong></p>
+</li>
+<li>Used for formatted content with rich features</li>
+<li>Supports headings, tables, code blocks, and emoji</li>
+<li>Compatible with various platforms including Notion</li>
+<li>Allows for structured, readable content</li>
+</ul>
+<h3 id="tools-platforms">Tools &amp; Platforms</h3>
+<ul>
+<li><strong>Anki</strong></li>
+<li>Spaced repetition flashcard system</li>
+<li>Primary end-use platform for vocabulary memorization</li>
+<li>
+<p>Imports CSV files for flashcard creation</p>
+</li>
+<li>
+<p><strong>Notion</strong></p>
+</li>
+<li>Knowledge management platform</li>
+<li>Used for organizing and structuring content</li>
+<li>Exports to various formats including CSV and Markdown</li>
+<li>
+<p>Supports tables, databases, and rich formatting</p>
+</li>
+<li>
+<p><strong>Text Editors</strong></p>
+</li>
+<li>Used for creating and editing Markdown files</li>
+<li>Support for syntax highlighting and preview</li>
+</ul>
+<h2 id="development-setup">Development Setup</h2>
+<ul>
+<li>Text editor with Markdown support</li>
+<li>CSV editor or spreadsheet software</li>
+<li>Anki for testing imported flashcards</li>
+<li>Notion for content organization and management</li>
+</ul>
+<h2 id="technical-constraints">Technical Constraints</h2>
+<ul>
+<li>CSV files must maintain proper formatting for Anki import</li>
+<li>Markdown files should be compatible with both GitHub and Notion rendering</li>
+<li>Special characters and formatting in German language must be preserved</li>
+<li>File naming must be consistent for proper organization</li>
+</ul>
+<h2 id="dependencies">Dependencies</h2>
+<ul>
+<li>Anki for flashcard usage</li>
+<li>Notion for content management (optional)</li>
+<li>Text editor for file creation and editing</li>
+<li>Web browser for accessing online resources</li>
+</ul>
+<h2 id="technical-workflow">Technical Workflow</h2>
+<ol>
+<li>Create or update content in appropriate format (CSV or Markdown)</li>
+<li>Organize files according to naming conventions</li>
+<li>Test import into Anki (for CSV files)</li>
+<li>Review rendering in Markdown viewers</li>
+<li>Backup files regularly</li>
+</ol>
+<h2 id="technical-considerations">Technical Considerations</h2>
+<ul>
+<li>Ensure proper encoding (UTF-8) to support German special characters</li>
+<li>Maintain consistent formatting across files</li>
+<li>Follow established patterns for new content creation</li>
+<li>Consider compatibility with mobile devices for on-the-go learning</li>
+</ul>
+</body>
+</html>

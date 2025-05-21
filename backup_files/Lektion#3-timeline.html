@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lektion 3 - Interaktive Zeitleiste</title>
+    
+<style>
+    body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        line-height: 1.6;
+        color: #333;
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+    h1, h2, h3, h4, h5, h6 {
+        margin-top: 24px;
+        margin-bottom: 16px;
+        font-weight: 600;
+        line-height: 1.25;
+    }
+    h1 {
+        font-size: 2em;
+        border-bottom: 1px solid #eaecef;
+        padding-bottom: 0.3em;
+    }
+    h2 {
+        font-size: 1.5em;
+        border-bottom: 1px solid #eaecef;
+        padding-bottom: 0.3em;
+    }
+    h3 {
+        font-size: 1.25em;
+    }
+    table {
+        border-collapse: collapse;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    th, td {
+        border: 1px solid #ddd;
+        padding: 8px 12px;
+        text-align: left;
+    }
+    th {
+        background-color: #f6f8fa;
+        font-weight: 600;
+    }
+    tr:nth-child(even) {
+        background-color: #f6f8fa;
+    }
+    blockquote {
+        padding: 0 1em;
+        color: #6a737d;
+        border-left: 0.25em solid #dfe2e5;
+        margin: 0 0 16px 0;
+    }
+    .vocabulary {
+        color: #e53935;
+        font-weight: bold;
+    }
+    .grammar {
+        color: #1e88e5;
+        font-weight: bold;
+    }
+    .example {
+        color: #43a047;
+        font-weight: bold;
+    }
+    .communication {
+        color: #8e24aa;
+        font-weight: bold;
+    }
+    hr {
+        height: 0.25em;
+        padding: 0;
+        margin: 24px 0;
+        background-color: #e1e4e8;
+        border: 0;
+    }
+    code {
+        font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+        background-color: rgba(27, 31, 35, 0.05);
+        padding: 0.2em 0.4em;
+        border-radius: 3px;
+    }
+    pre {
+        background-color: #f6f8fa;
+        border-radius: 3px;
+        padding: 16px;
+        overflow: auto;
+        font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+    }
+    .correct {
+        color: #43a047;
+    }
+    .incorrect {
+        color: #e53935;
+        text-decoration: line-through;
+    }
+    a {
+        color: #0366d6;
+        text-decoration: none;
+    }
+    a:hover {
+        text-decoration: underline;
+    }
+    /* Navigation bar */
+    .navbar {
+        background-color: #3f51b5;
+        color: white;
+        padding: 10px 20px;
+        margin-bottom: 20px;
+        border-radius: 5px;
+    }
+    .navbar a {
+        color: white;
+        margin-right: 15px;
+        text-decoration: none;
+    }
+    .navbar a:hover {
+        text-decoration: underline;
+    }
+</style>
+
+</head>
+<body>
+    <div class="navbar">
+        <a href="../../index.html">Home</a>
+        <a href="../../Lektion%231/README.html">Lektion 1</a>
+        <a href="../../Lektion%232/README.html">Lektion 2</a>
+        <a href="../../Lektion%233/README.html">Lektion 3</a>
+        <a href="../../Lektion%234/README.html">Lektion 4</a>
+        <a href="../../reference_docs/README.html">Reference</a>
+    </div>
+    <h1 id="lektion-3-interaktive-zeitleiste">Lektion 3 - Interaktive Zeitleiste</h1>
+<h2 id="frau-mullers-weg-zur-gesundheit-eine-chronologische-darstellung">Frau Müllers Weg zur Gesundheit: Eine chronologische Darstellung</h2>
+<p>Diese Zeitleiste zeigt die wichtigsten Ereignisse in Frau Müllers Geschichte und hilft Ihnen, die Vokabeln und Grammatik in einem zeitlichen Kontext zu verstehen.</p>
+<h2 id="farbkodierung-color-coding">Farbkodierung (Color Coding):</h2>
+<ul>
+<li><span class="vocabulary"><strong>Rot/Red</strong></span>: Vokabeln/Vocabulary</li>
+<li><span class="grammar"><strong>Blau/Blue</strong></span>: Passiv mit Modalverben/Passive with modal verbs</li>
+<li><span class="example"><strong>Grün/Green</strong></span>: Genitiv/Genitive case</li>
+<li><span style="color:orange;"><strong>Orange</strong></span>: Bruchzahlen/Fractions</li>
+<li><span class="communication"><strong>Lila/Purple</strong></span>: Kommunikationsphrasen/Communication phrases</li>
+</ul>
+<hr />
+<div class="codehilite"><pre><span></span><code>timeline
+<span class="w">    </span>title<span class="w"> </span>Frau<span class="w"> </span>Müllers<span class="w"> </span>Weg<span class="w"> </span>zur<span class="w"> </span>Gesundheit
+<span class="w">    </span>section<span class="w"> </span>Probleme<span class="w"> </span>erkennen
+<span class="w">        </span>Stress<span class="w"> </span>bei<span class="w"> </span>der<span class="w"> </span>Arbeit<span class="w"> </span>:<span class="w"> </span>Frau<span class="w"> </span>Müller<span class="w"> </span>hat<span class="w"> </span>einen<span class="w"> </span><span class="nt">&lt;span</span><span class="w"> </span><span class="na">style=</span><span class="s">&quot;color:red;&quot;</span><span class="nt">&gt;</span>**stressigen**<span class="w"> </span>(stressful)<span class="nt">&lt;/span&gt;</span><span class="w"> </span>Beruf
+<span class="w">        </span>:<span class="w"> </span>Sie<span class="w"> </span>arbeitet<span class="w"> </span>in<span class="w"> </span>einem<span class="w"> </span><span class="nt">&lt;span</span><span class="w"> </span><span class="na">style=</span><span class="s">&quot;color:red;&quot;</span><span class="nt">&gt;</span>**Labor**<span class="w"> </span>(laboratory)<span class="nt">&lt;/span&gt;</span>
+<span class="w">        </span>:<span class="w"> </span><span class="nt">&lt;span</span><span class="w"> </span><span class="na">style=</span><span class="s">&quot;color:red;&quot;</span><span class="nt">&gt;</span>**Nachts**<span class="w"> </span>(at<span class="w"> </span>night)<span class="nt">&lt;/span&gt;</span><span class="w"> </span>kann<span class="w"> </span>sie<span class="w"> </span>nicht<span class="w"> </span>gut<span class="w"> </span>schlafen
+<span class="w">        </span>Schlafprobleme<span class="w"> </span>:<span class="w"> </span>Durch<span class="w"> </span>den<span class="w"> </span><span class="nt">&lt;span</span><span class="w"> </span><span class="na">style=</span><span class="s">&quot;color:red;&quot;</span><span class="nt">&gt;</span>**Schlafmangel**<span class="w"> </span>(lack<span class="w"> </span>of<span class="w"> </span>sleep)<span class="nt">&lt;/span&gt;</span><span class="w"> </span>ist<span class="w"> </span>sie<span class="w"> </span><span class="nt">&lt;span</span><span class="w"> </span><span class="na">style=</span><span class="s">&quot;color:red;&quot;</span><span class="nt">&gt;</span>**extrem**<span class="w"> </span>(extremely)<span class="nt">&lt;/span&gt;</span><span class="w"> </span>müde
+<span class="w">        </span>:<span class="w"> </span>Sie<span class="w"> </span>ist<span class="w"> </span><span class="nt">&lt;span</span><span class="w"> </span><span class="na">style=</span><span class="s">&quot;color:red;&quot;</span><span class="nt">&gt;</span>**erschöpft**<span class="w"> </span>(exhausted)<span class="nt">&lt;/span&gt;</span>
+<span class="w">        </span>Statistik<span class="w"> </span>:<span class="w"> </span><span class="nt">&lt;span</span><span class="w"> </span><span class="na">style=</span><span class="s">&quot;color:orange;&quot;</span><span class="nt">&gt;</span>**Die<span class="w"> </span>Hälfte**<span class="w"> </span>(half)<span class="nt">&lt;/span&gt;</span><span class="w"> </span>ihrer<span class="w"> </span>Kollegen<span class="w"> </span>hat<span class="w"> </span>ähnliche<span class="w"> </span>Probleme
+<span class="w">        </span>:<span class="w"> </span><span class="nt">&lt;span</span><span class="w"> </span><span class="na">style=</span><span class="s">&quot;color:orange;&quot;</span><span class="nt">&gt;</span>**Ein<span class="w"> </span>Drittel**<span class="w"> </span>(a<span class="w"> </span>third)<span class="nt">&lt;/span&gt;</span><span class="w"> </span>der<span class="w"> </span>Ärzte<span class="w"> </span>nimmt<span class="w"> </span>Medikamente
+<span class="w">        </span>:<span class="w"> </span><span class="nt">&lt;span</span><span class="w"> </span><span class="na">style=</span><span class="s">&quot;color:orange;&quot;</span><span class="nt">&gt;</span>**Ein<span class="w"> </span>Viertel**<span class="w"> </span>(a<span class="w"> </span>quarter)<span class="nt">&lt;/span&gt;</span><span class="w"> </span>hat<span class="w"> </span>sich<span class="w"> </span>schon<span class="w"> </span><span class="nt">&lt;span</span><span class="w"> </span><span class="na">style=</span><span class="s">&quot;color:red;&quot;</span><span class="nt">&gt;</span>**krankgemeldet**<span class="w"> </span>(called<span class="w"> </span>in<span class="w"> </span>sick)<span class="nt">&lt;/span&gt;</span>
+<span class="w">    </span>section<span class="w"> </span>Hilfe<span class="w"> </span>suchen
+<span class="w">        </span>Entscheidung<span class="w"> </span>:<span class="w"> </span>&quot;Auf<span class="w"> </span>meine<span class="w"> </span>Gesundheit<span class="w"> </span><span class="nt">&lt;span</span><span class="w"> </span><span class="na">style=</span><span class="s">&quot;color:blue;&quot;</span><span class="nt">&gt;</span>**sollte**<span class="w"> </span>besser<span class="w"> </span>**geachtet<span class="w"> </span>werden**<span class="nt">&lt;/span&gt;</span>&quot;
+<span class="w">        </span>:<span class="w"> </span>Sie<span class="w"> </span>beschließt,<span class="w"> </span>einen<span class="w"> </span>Termin<span class="w"> </span>zu<span class="w"> </span><span class="nt">&lt;span</span><span class="w"> </span><span class="na">style=</span><span class="s">&quot;color:red;&quot;</span><span class="nt">&gt;</span>**vereinbaren**<span class="w"> </span>(arrange)<span class="nt">&lt;/span&gt;</span>
+<span class="w">        </span>Arztbesuch<span class="w"> </span>:<span class="w"> </span>Dr.<span class="w"> </span>Wirth,<span class="w"> </span>ein<span class="w"> </span><span class="nt">&lt;span</span><span class="w"> </span><span class="na">style=</span><span class="s">&quot;color:red;&quot;</span><span class="nt">&gt;</span>**Fachmann**<span class="w"> </span>(expert)<span class="nt">&lt;/span&gt;</span>,<span class="w"> </span><span class="nt">&lt;span</span><span class="w"> </span><span class="na">style=</span><span class="s">&quot;color:red;&quot;</span><span class="nt">&gt;</span>**untersucht**<span class="w"> </span>(examines)<span class="nt">&lt;/span&gt;</span><span class="w"> </span>sie
+<span class="w">        </span>:<span class="w"> </span>&quot;Ihr<span class="w"> </span><span class="nt">&lt;span</span><span class="w"> </span><span class="na">style=</span><span class="s">&quot;color:red;&quot;</span><span class="nt">&gt;</span>**Gewicht**<span class="w"> </span>(weight)<span class="nt">&lt;/span&gt;</span><span class="w"> </span><span class="nt">&lt;span</span><span class="w"> </span><span class="na">style=</span><span class="s">&quot;color:blue;&quot;</span><span class="nt">&gt;</span>**muss<span class="w"> </span>gemessen<span class="w"> </span>werden**<span class="nt">&lt;/span&gt;</span>&quot;
+<span class="w">        </span>:<span class="w"> </span>&quot;Blut<span class="w"> </span><span class="nt">&lt;span</span><span class="w"> </span><span class="na">style=</span><span class="s">&quot;color:blue;&quot;</span><span class="nt">&gt;</span>**muss<span class="w"> </span>abgenommen<span class="w"> </span>werden**<span class="nt">&lt;/span&gt;</span>&quot;
+<span class="w">        </span>Diagnose<span class="w"> </span>:<span class="w"> </span>Er<span class="w"> </span><span class="nt">&lt;span</span><span class="w"> </span><span class="na">style=</span><span class="s">&quot;color:red;&quot;</span><span class="nt">&gt;</span>**vermutet**<span class="w"> </span>(suspects)<span class="nt">&lt;/span&gt;</span><span class="w"> </span>Stress<span class="w"> </span>als<span class="w"> </span>Ursache<span class="w"> </span>für<span class="w"> </span>die<span class="w"> </span><span class="nt">&lt;span</span><span class="w"> </span><span class="na">style=</span><span class="s">&quot;color:red;&quot;</span><span class="nt">&gt;</span>**Störungen**<span class="w"> </span>(disturbances)<span class="nt">&lt;/span&gt;</span>
+<span class="w">        </span>:<span class="w"> </span><span class="nt">&lt;span</span><span class="w"> </span><span class="na">style=</span><span class="s">&quot;color:purple;&quot;</span><span class="nt">&gt;</span>**&quot;Was<span class="w"> </span>können<span class="w"> </span>Sie<span class="w"> </span>mir<span class="w"> </span>empfehlen?&quot;**<span class="nt">&lt;/span&gt;</span>
+<span class="w">        </span>:<span class="w"> </span>&quot;Die<span class="w"> </span><span class="nt">&lt;span</span><span class="w"> </span><span class="na">style=</span><span class="s">&quot;color:red;&quot;</span><span class="nt">&gt;</span>**Wirkung**<span class="w"> </span>(effect)<span class="nt">&lt;/span&gt;</span><span class="w"> </span><span class="nt">&lt;span</span><span class="w"> </span><span class="na">style=</span><span class="s">&quot;color:green;&quot;</span><span class="nt">&gt;</span>**des<span class="w"> </span>Stresses**<span class="w"> </span>(of<span class="w"> </span>the<span class="w"> </span>stress)<span class="nt">&lt;/span&gt;</span><span class="w"> </span>ist<span class="w"> </span>sehr<span class="w"> </span>stark&quot;
+<span class="w">        </span>:<span class="w"> </span>&quot;Die<span class="w"> </span>Gesundheit<span class="w"> </span><span class="nt">&lt;span</span><span class="w"> </span><span class="na">style=</span><span class="s">&quot;color:green;&quot;</span><span class="nt">&gt;</span>**der<span class="w"> </span>Schultern**<span class="w"> </span>(of<span class="w"> </span>the<span class="w"> </span>shoulders)<span class="nt">&lt;/span&gt;</span><span class="w"> </span>leidet<span class="w"> </span>auch&quot;
+<span class="w">    </span>section<span class="w"> </span>Empfehlungen
+<span class="w">        </span>Rat<span class="w"> </span>des<span class="w"> </span>Arztes<span class="w"> </span>:<span class="w"> </span><span class="nt">&lt;span</span><span class="w"> </span><span class="na">style=</span><span class="s">&quot;color:purple;&quot;</span><span class="nt">&gt;</span>**&quot;Könnten<span class="w"> </span>Sie<span class="w"> </span>bitte**<span class="w"> </span>einige<span class="w"> </span>Entspannungsübungen<span class="w"> </span>ausprobieren?<span class="nt">&lt;/span&gt;</span>
+<span class="w">        </span>:<span class="w"> </span><span class="nt">&lt;span</span><span class="w"> </span><span class="na">style=</span><span class="s">&quot;color:purple;&quot;</span><span class="nt">&gt;</span>**&quot;Ja,<span class="w"> </span>natürlich&quot;**<span class="nt">&lt;/span&gt;</span>
+<span class="w">        </span>:<span class="w"> </span>Er<span class="w"> </span><span class="nt">&lt;span</span><span class="w"> </span><span class="na">style=</span><span class="s">&quot;color:red;&quot;</span><span class="nt">&gt;</span>**verschreibt**<span class="w"> </span>(prescribes)<span class="nt">&lt;/span&gt;</span><span class="w"> </span>kein<span class="w"> </span><span class="nt">&lt;span</span><span class="w"> </span><span class="na">style=</span><span class="s">&quot;color:red;&quot;</span><span class="nt">&gt;</span>**Schmerzmittel**<span class="w"> </span>(painkiller)<span class="nt">&lt;/span&gt;</span>
+<span class="w">        </span>Natürliche<span class="w"> </span>Mittel<span class="w"> </span>:<span class="w"> </span>Er<span class="w"> </span>empfiehlt<span class="w"> </span>ein<span class="w"> </span>natürliches<span class="w"> </span><span class="nt">&lt;span</span><span class="w"> </span><span class="na">style=</span><span class="s">&quot;color:red;&quot;</span><span class="nt">&gt;</span>**Mittel**<span class="w"> </span>(remedy)<span class="nt">&lt;/span&gt;</span>
+<span class="w">        </span>:<span class="w"> </span>Zum<span class="w"> </span><span class="nt">&lt;span</span><span class="w"> </span><span class="na">style=</span><span class="s">&quot;color:red;&quot;</span><span class="nt">&gt;</span>**Wohl**<span class="w"> </span>(well-being)<span class="nt">&lt;/span&gt;</span><span class="w"> </span>ihrer<span class="w"> </span>Gesundheit
+<span class="w">        </span>:<span class="w"> </span><span class="nt">&lt;span</span><span class="w"> </span><span class="na">style=</span><span class="s">&quot;color:red;&quot;</span><span class="nt">&gt;</span>**Ausreichend**<span class="w"> </span>(sufficient)<span class="nt">&lt;/span&gt;</span><span class="w"> </span>Bewegung
+<span class="w">        </span>:<span class="w"> </span><span class="nt">&lt;span</span><span class="w"> </span><span class="na">style=</span><span class="s">&quot;color:red;&quot;</span><span class="nt">&gt;</span>**Grundsätzlich**<span class="w"> </span>(as<span class="w"> </span>a<span class="w"> </span>matter<span class="w"> </span>of<span class="w"> </span>principle)<span class="nt">&lt;/span&gt;</span><span class="w"> </span><span class="nt">&lt;span</span><span class="w"> </span><span class="na">style=</span><span class="s">&quot;color:blue;&quot;</span><span class="nt">&gt;</span>**darf**<span class="w"> </span>nicht<span class="w"> </span>zu<span class="w"> </span>viel<span class="w"> </span>Kaffee<span class="w"> </span>**getrunken<span class="w"> </span>werden**<span class="nt">&lt;/span&gt;</span>
+<span class="w">    </span>section<span class="w"> </span>Änderungen<span class="w"> </span>im<span class="w"> </span>Lebensstil
+<span class="w">        </span>Ernährung<span class="w"> </span>:<span class="w"> </span>&quot;Weniger<span class="w"> </span><span class="nt">&lt;span</span><span class="w"> </span><span class="na">style=</span><span class="s">&quot;color:red;&quot;</span><span class="nt">&gt;</span>**Fett**<span class="w"> </span>(fat)<span class="nt">&lt;/span&gt;</span><span class="w"> </span>und<span class="w"> </span>mehr<span class="w"> </span><span class="nt">&lt;span</span><span class="w"> </span><span class="na">style=</span><span class="s">&quot;color:red;&quot;</span><span class="nt">&gt;</span>**Vitamine**<span class="w"> </span>(vitamins)<span class="nt">&lt;/span&gt;</span>&quot;
+<span class="w">        </span>:<span class="w"> </span><span class="nt">&lt;span</span><span class="w"> </span><span class="na">style=</span><span class="s">&quot;color:blue;&quot;</span><span class="nt">&gt;</span>**Müssen**<span class="w"> </span>in<span class="w"> </span>meinen<span class="w"> </span>Speiseplan<span class="w"> </span>**eingebaut<span class="w"> </span>werden**<span class="nt">&lt;/span&gt;</span>
+<span class="w">        </span>:<span class="w"> </span><span class="nt">&lt;span</span><span class="w"> </span><span class="na">style=</span><span class="s">&quot;color:red;&quot;</span><span class="nt">&gt;</span>**Quark**<span class="w"> </span>(quark)<span class="nt">&lt;/span&gt;</span><span class="w"> </span>mit<span class="w"> </span><span class="nt">&lt;span</span><span class="w"> </span><span class="na">style=</span><span class="s">&quot;color:red;&quot;</span><span class="nt">&gt;</span>**Früchten**<span class="w"> </span>(fruits)<span class="nt">&lt;/span&gt;</span><span class="w"> </span>zum<span class="w"> </span>Frühstück
+<span class="w">        </span>Atmung<span class="w"> </span>:<span class="w"> </span>Richtig<span class="w"> </span><span class="nt">&lt;span</span><span class="w"> </span><span class="na">style=</span><span class="s">&quot;color:red;&quot;</span><span class="nt">&gt;</span>**atmen**<span class="w"> </span>(breathe)<span class="nt">&lt;/span&gt;</span><span class="w"> </span>lernen
+<span class="w">        </span>:<span class="w"> </span>Nicht<span class="w"> </span><span class="nt">&lt;span</span><span class="w"> </span><span class="na">style=</span><span class="s">&quot;color:red;&quot;</span><span class="nt">&gt;</span>**flach**<span class="w"> </span>(shallow)<span class="nt">&lt;/span&gt;</span><span class="w"> </span>atmen
+<span class="w">        </span>:<span class="w"> </span>Die<span class="w"> </span><span class="nt">&lt;span</span><span class="w"> </span><span class="na">style=</span><span class="s">&quot;color:red;&quot;</span><span class="nt">&gt;</span>**Kraft**<span class="w"> </span>(strength)<span class="nt">&lt;/span&gt;</span><span class="w"> </span>der<span class="w"> </span>richtigen<span class="w"> </span>Atmung<span class="w"> </span>nutzen
+<span class="w">        </span>Stressbewältigung<span class="w"> </span>:<span class="w"> </span>Besser<span class="w"> </span>mit<span class="w"> </span>Stress<span class="w"> </span><span class="nt">&lt;span</span><span class="w"> </span><span class="na">style=</span><span class="s">&quot;color:red;&quot;</span><span class="nt">&gt;</span>**umgehen**<span class="w"> </span>(deal<span class="w"> </span>with)<span class="nt">&lt;/span&gt;</span>
+<span class="w">        </span>:<span class="w"> </span><span class="nt">&lt;span</span><span class="w"> </span><span class="na">style=</span><span class="s">&quot;color:red;&quot;</span><span class="nt">&gt;</span>**Öfter**<span class="w"> </span>(more<span class="w"> </span>often)<span class="nt">&lt;/span&gt;</span><span class="w"> </span>lachen
+<span class="w">        </span>Schlaf<span class="w"> </span>:<span class="w"> </span>Auf<span class="w"> </span>regelmäßigen<span class="w"> </span><span class="nt">&lt;span</span><span class="w"> </span><span class="na">style=</span><span class="s">&quot;color:red;&quot;</span><span class="nt">&gt;</span>**Schlaf**<span class="w"> </span>(sleep)<span class="nt">&lt;/span&gt;</span><span class="w"> </span>achten
+<span class="w">        </span>:<span class="w"> </span>Er<span class="w"> </span>ist<span class="w"> </span>die<span class="w"> </span><span class="nt">&lt;span</span><span class="w"> </span><span class="na">style=</span><span class="s">&quot;color:red;&quot;</span><span class="nt">&gt;</span>**Grundlage**<span class="w"> </span>(foundation)<span class="nt">&lt;/span&gt;</span><span class="w"> </span>jeder<span class="w"> </span>Entspannung
+<span class="w">    </span>section<span class="w"> </span>Verbesserungen
+<span class="w">        </span>Besserer<span class="w"> </span>Schlaf<span class="w"> </span>:<span class="w"> </span>Sie<span class="w"> </span><span class="nt">&lt;span</span><span class="w"> </span><span class="na">style=</span><span class="s">&quot;color:red;&quot;</span><span class="nt">&gt;</span>**wacht**<span class="w"> </span>nicht<span class="w"> </span>mehr<span class="w"> </span>so<span class="w"> </span>oft<span class="w"> </span>**auf**<span class="w"> </span>(wakes<span class="w"> </span>up)<span class="nt">&lt;/span&gt;</span>
+<span class="w">        </span>:<span class="w"> </span>Die<span class="w"> </span><span class="nt">&lt;span</span><span class="w"> </span><span class="na">style=</span><span class="s">&quot;color:red;&quot;</span><span class="nt">&gt;</span>**Verbesserung**<span class="w"> </span>(improvement)<span class="nt">&lt;/span&gt;</span><span class="w"> </span>ist<span class="w"> </span>deutlich
+<span class="w">        </span>:<span class="w"> </span>Sie<span class="w"> </span>kann<span class="w"> </span>besser<span class="w"> </span>mit<span class="w"> </span>den<span class="w"> </span><span class="nt">&lt;span</span><span class="w"> </span><span class="na">style=</span><span class="s">&quot;color:red;&quot;</span><span class="nt">&gt;</span>**Faktoren**<span class="w"> </span>(factors)<span class="nt">&lt;/span&gt;</span><span class="w"> </span>umgehen
+<span class="w">        </span>Krankenkasse<span class="w"> </span>:<span class="w"> </span>Sie<span class="w"> </span>kann<span class="w"> </span><span class="nt">&lt;span</span><span class="w"> </span><span class="na">style=</span><span class="s">&quot;color:red;&quot;</span><span class="nt">&gt;</span>**ebenfalls**<span class="w"> </span>(also)<span class="nt">&lt;/span&gt;</span><span class="w"> </span>Hilfe<span class="w"> </span><span class="nt">&lt;span</span><span class="w"> </span><span class="na">style=</span><span class="s">&quot;color:red;&quot;</span><span class="nt">&gt;</span>**erhalten**<span class="w"> </span>(receive)<span class="nt">&lt;/span&gt;</span>
+<span class="w">        </span>:<span class="w"> </span>Viele<span class="w"> </span><span class="nt">&lt;span</span><span class="w"> </span><span class="na">style=</span><span class="s">&quot;color:red;&quot;</span><span class="nt">&gt;</span>**Leistungen**<span class="w"> </span>(services)<span class="nt">&lt;/span&gt;</span>
+<span class="w">        </span>:<span class="w"> </span><span class="nt">&lt;span</span><span class="w"> </span><span class="na">style=</span><span class="s">&quot;color:purple;&quot;</span><span class="nt">&gt;</span>**&quot;Sie<span class="w"> </span>können<span class="w"> </span>umsonst<span class="w"> </span>(for<span class="w"> </span>free)<span class="w"> </span>an<span class="w"> </span>Gesundheitskursen<span class="w"> </span>teilnehmen!&quot;**<span class="nt">&lt;/span&gt;</span>
+<span class="w">        </span>Gesundheitskonferenz<span class="w"> </span>:<span class="w"> </span>In<span class="w"> </span>einer<span class="w"> </span><span class="nt">&lt;span</span><span class="w"> </span><span class="na">style=</span><span class="s">&quot;color:red;&quot;</span><span class="nt">&gt;</span>**Konferenz**<span class="w"> </span>(conference)<span class="nt">&lt;/span&gt;</span><span class="w"> </span>über<span class="w"> </span>Gesundheit
+<span class="w">        </span>:<span class="w"> </span>Die<span class="w"> </span><span class="nt">&lt;span</span><span class="w"> </span><span class="na">style=</span><span class="s">&quot;color:red;&quot;</span><span class="nt">&gt;</span>**Einnahme**<span class="w"> </span>(intake)<span class="nt">&lt;/span&gt;</span><span class="w"> </span>von<span class="w"> </span>Medikamenten<span class="w"> </span>ist<span class="w"> </span>nicht<span class="w"> </span>immer<span class="w"> </span>die<span class="w"> </span>beste<span class="w"> </span>Lösung
+<span class="w">        </span>:<span class="w"> </span>Sport<span class="w"> </span><span class="nt">&lt;span</span><span class="w"> </span><span class="na">style=</span><span class="s">&quot;color:red;&quot;</span><span class="nt">&gt;</span>**treiben**<span class="w"> </span>(to<span class="w"> </span>do)<span class="nt">&lt;/span&gt;</span><span class="w"> </span>ist<span class="w"> </span>besser
+<span class="w">        </span>:<span class="w"> </span>Auf<span class="w"> </span>Tabletten<span class="w"> </span><span class="nt">&lt;span</span><span class="w"> </span><span class="na">style=</span><span class="s">&quot;color:red;&quot;</span><span class="nt">&gt;</span>**verzichten**<span class="w"> </span>(give<span class="w"> </span>up)<span class="nt">&lt;/span&gt;</span>
+<span class="w">    </span>section<span class="w"> </span>Weitergabe<span class="w"> </span>des<span class="w"> </span>Wissens
+<span class="w">        </span>Kollegin<span class="w"> </span>beraten<span class="w"> </span>:<span class="w"> </span>&quot;Ich<span class="w"> </span>kann<span class="w"> </span>nicht<span class="w"> </span><span class="nt">&lt;span</span><span class="w"> </span><span class="na">style=</span><span class="s">&quot;color:red;&quot;</span><span class="nt">&gt;</span>**gleichzeitig**<span class="w"> </span>(simultaneously)<span class="nt">&lt;/span&gt;</span><span class="w"> </span>an<span class="w"> </span>mehreren<span class="w"> </span>Projekten<span class="w"> </span>arbeiten&quot;
+<span class="w">        </span>:<span class="w"> </span><span class="nt">&lt;span</span><span class="w"> </span><span class="na">style=</span><span class="s">&quot;color:purple;&quot;</span><span class="nt">&gt;</span>**&quot;Was<span class="w"> </span>können<span class="w"> </span>Sie<span class="w"> </span>mir<span class="w"> </span>empfehlen?&quot;**<span class="nt">&lt;/span&gt;</span>
+<span class="w">        </span>:<span class="w"> </span><span class="nt">&lt;span</span><span class="w"> </span><span class="na">style=</span><span class="s">&quot;color:purple;&quot;</span><span class="nt">&gt;</span>**&quot;Mit<span class="w"> </span>regelmäßigen<span class="w"> </span>Pausen<span class="w"> </span>habe<span class="w"> </span>ich<span class="w"> </span>nur<span class="w"> </span>gute<span class="w"> </span>Erfahrungen<span class="w"> </span>gemacht&quot;**<span class="nt">&lt;/span&gt;</span>
+<span class="w">        </span>:<span class="w"> </span><span class="nt">&lt;span</span><span class="w"> </span><span class="na">style=</span><span class="s">&quot;color:red;&quot;</span><span class="nt">&gt;</span>**Zunächst**<span class="w"> </span>(initially)<span class="nt">&lt;/span&gt;</span><span class="w"> </span>kleine<span class="w"> </span>Übungen<span class="w"> </span>machen
+<span class="w">        </span>:<span class="w"> </span>Den<span class="w"> </span>Kopf<span class="w"> </span>zur<span class="w"> </span><span class="nt">&lt;span</span><span class="w"> </span><span class="na">style=</span><span class="s">&quot;color:red;&quot;</span><span class="nt">&gt;</span>**Schulter**<span class="w"> </span>(shoulder)<span class="nt">&lt;/span&gt;</span><span class="w"> </span>neigen
+<span class="w">        </span>Büroorganisation<span class="w"> </span>:<span class="w"> </span>Der<span class="w"> </span><span class="nt">&lt;span</span><span class="w"> </span><span class="na">style=</span><span class="s">&quot;color:red;&quot;</span><span class="nt">&gt;</span>**Abfalleimer**<span class="w"> </span>(trash<span class="w"> </span>can)<span class="nt">&lt;/span&gt;</span><span class="w"> </span><span class="nt">&lt;span</span><span class="w"> </span><span class="na">style=</span><span class="s">&quot;color:blue;&quot;</span><span class="nt">&gt;</span>**muss<span class="w"> </span>geleert<span class="w"> </span>werden**<span class="nt">&lt;/span&gt;</span>
+<span class="w">        </span>:<span class="w"> </span>Neue<span class="w"> </span><span class="nt">&lt;span</span><span class="w"> </span><span class="na">style=</span><span class="s">&quot;color:red;&quot;</span><span class="nt">&gt;</span>**Verbände**<span class="w"> </span>(bandages)<span class="nt">&lt;/span&gt;</span><span class="w"> </span>und<span class="w"> </span><span class="nt">&lt;span</span><span class="w"> </span><span class="na">style=</span><span class="s">&quot;color:red;&quot;</span><span class="nt">&gt;</span>**Spritzen**<span class="w"> </span>(syringes)<span class="nt">&lt;/span&gt;</span><span class="w"> </span><span class="nt">&lt;span</span><span class="w"> </span><span class="na">style=</span><span class="s">&quot;color:blue;&quot;</span><span class="nt">&gt;</span>**müssen<span class="w"> </span>bestellt<span class="w"> </span>werden**<span class="nt">&lt;/span&gt;</span>
+<span class="w">        </span>:<span class="w"> </span><span class="nt">&lt;span</span><span class="w"> </span><span class="na">style=</span><span class="s">&quot;color:purple;&quot;</span><span class="nt">&gt;</span>**&quot;Könnten<span class="w"> </span>Sie<span class="w"> </span>bitte**<span class="w"> </span>ihr<span class="w"> </span>Bescheid<span class="w"> </span>geben?<span class="nt">&lt;/span&gt;</span>
+<span class="w">        </span>:<span class="w"> </span><span class="nt">&lt;span</span><span class="w"> </span><span class="na">style=</span><span class="s">&quot;color:purple;&quot;</span><span class="nt">&gt;</span>**&quot;Ja,<span class="w"> </span>natürlich&quot;**<span class="nt">&lt;/span&gt;</span>
+<span class="w">        </span>Ellas<span class="w"> </span>Kolumne<span class="w"> </span>:<span class="w"> </span>Sie<span class="w"> </span>hat<span class="w"> </span>ihre<span class="w"> </span>Kollegin<span class="w"> </span><span class="nt">&lt;span</span><span class="w"> </span><span class="na">style=</span><span class="s">&quot;color:red;&quot;</span><span class="nt">&gt;</span>**überredet**<span class="w"> </span>(persuaded)<span class="nt">&lt;/span&gt;</span>
+<span class="w">        </span>:<span class="w"> </span><span class="nt">&lt;span</span><span class="w"> </span><span class="na">style=</span><span class="s">&quot;color:red;&quot;</span><span class="nt">&gt;</span>**ELLAS<span class="w"> </span>KOLUMNE**<span class="w"> </span>(ELLA&#39;S<span class="w"> </span>COLUMN)<span class="nt">&lt;/span&gt;</span><span class="w"> </span>ist<span class="w"> </span>sehr<span class="w"> </span>beliebt
+<span class="w">        </span>:<span class="w"> </span><span class="nt">&lt;span</span><span class="w"> </span><span class="na">style=</span><span class="s">&quot;color:purple;&quot;</span><span class="nt">&gt;</span>**&quot;Ich<span class="w"> </span>sollte<span class="w"> </span>mich<span class="w"> </span>auch<span class="w"> </span>regelmäßig<span class="w"> </span>impfen<span class="w"> </span>lassen&quot;**<span class="w"> </span>(get<span class="w"> </span>vaccinated)<span class="nt">&lt;/span&gt;</span>
+</code></pre></div>
+
+<hr />
+<h2 id="interaktive-elemente-fur-jede-phase-der-zeitleiste">Interaktive Elemente für jede Phase der Zeitleiste</h2>
+<h3 id="1-probleme-erkennen">1. Probleme erkennen</h3>
+<p><strong>Schlüsselvokabeln:</strong><br />
+- <span class="vocabulary"><strong>stressig</strong> (stressful)</span><br />
+- <span class="vocabulary"><strong>Labor</strong> (laboratory)</span><br />
+- <span class="vocabulary"><strong>nachts</strong> (at night)</span><br />
+- <span class="vocabulary"><strong>Schlafmangel</strong> (lack of sleep)</span><br />
+- <span class="vocabulary"><strong>extrem</strong> (extremely)</span><br />
+- <span class="vocabulary"><strong>erschöpft</strong> (exhausted)</span></p>
+<p><strong>Grammatikfokus:</strong> Bruchzahlen (Fractions)<br />
+- <span style="color:orange;"><strong>Die Hälfte</strong> (half)</span> ihrer Kollegen<br />
+- <span style="color:orange;"><strong>Ein Drittel</strong> (a third)</span> der Ärzte<br />
+- <span style="color:orange;"><strong>Ein Viertel</strong> (a quarter)</span> der Abteilung</p>
+<p><strong>Diskussionsfragen:</strong><br />
+1. Welche Stresssymptome haben Sie schon erlebt?<br />
+2. Wie viele Menschen in Ihrem Umfeld leiden unter Stress?<br />
+3. Wie wirkt sich Schlafmangel auf Ihre Gesundheit aus?</p>
+<h3 id="2-hilfe-suchen">2. Hilfe suchen</h3>
+<p><strong>Schlüsselvokabeln:</strong><br />
+- <span class="vocabulary"><strong>vereinbaren</strong> (arrange)</span><br />
+- <span class="vocabulary"><strong>Fachmann</strong> (expert)</span><br />
+- <span class="vocabulary"><strong>untersuchen</strong> (examine)</span><br />
+- <span class="vocabulary"><strong>Gewicht</strong> (weight)</span><br />
+- <span class="vocabulary"><strong>vermuten</strong> (suspect)</span><br />
+- <span class="vocabulary"><strong>Störung</strong> (disturbance)</span><br />
+- <span class="vocabulary"><strong>Wirkung</strong> (effect)</span></p>
+<p><strong>Grammatikfokus:</strong> <br />
+- Passiv mit Modalverben: <span class="grammar"><strong>sollte geachtet werden, muss gemessen werden</strong></span><br />
+- Genitiv: <span class="example"><strong>des Stresses, der Schultern</strong></span></p>
+<p><strong>Übung:</strong> Formulieren Sie Sätze mit Passiv und Modalverben über einen Arztbesuch.<br />
+Beispiel: "Der Blutdruck <strong>muss gemessen werden</strong>."</p>
+<h3 id="3-empfehlungen">3. Empfehlungen</h3>
+<p><strong>Schlüsselvokabeln:</strong><br />
+- <span class="vocabulary"><strong>verschreiben</strong> (prescribe)</span><br />
+- <span class="vocabulary"><strong>Schmerzmittel</strong> (painkiller)</span><br />
+- <span class="vocabulary"><strong>Mittel</strong> (remedy)</span><br />
+- <span class="vocabulary"><strong>Wohl</strong> (well-being)</span><br />
+- <span class="vocabulary"><strong>ausreichend</strong> (sufficient)</span><br />
+- <span class="vocabulary"><strong>grundsätzlich</strong> (as a matter of principle)</span></p>
+<p><strong>Grammatikfokus:</strong> <br />
+- Kommunikationsphrasen: <span class="communication"><strong>"Könnten Sie bitte...?", "Ja, natürlich"</strong></span><br />
+- Passiv mit Modalverben: <span class="grammar"><strong>darf nicht getrunken werden</strong></span></p>
+<p><strong>Rollenspiel:</strong> Spielen Sie einen Dialog zwischen Arzt und Patient mit den Kommunikationsphrasen.</p>
+<h3 id="4-anderungen-im-lebensstil">4. Änderungen im Lebensstil</h3>
+<p><strong>Schlüsselvokabeln:</strong><br />
+- <span class="vocabulary"><strong>Fett</strong> (fat)</span><br />
+- <span class="vocabulary"><strong>Vitamine</strong> (vitamins)</span><br />
+- <span class="vocabulary"><strong>Quark</strong> (quark)</span><br />
+- <span class="vocabulary"><strong>Früchte</strong> (fruits)</span><br />
+- <span class="vocabulary"><strong>atmen</strong> (breathe)</span><br />
+- <span class="vocabulary"><strong>flach</strong> (shallow)</span><br />
+- <span class="vocabulary"><strong>Kraft</strong> (strength)</span><br />
+- <span class="vocabulary"><strong>umgehen</strong> (deal with)</span><br />
+- <span class="vocabulary"><strong>öfter</strong> (more often)</span><br />
+- <span class="vocabulary"><strong>Schlaf</strong> (sleep)</span><br />
+- <span class="vocabulary"><strong>Grundlage</strong> (foundation)</span></p>
+<p><strong>Grammatikfokus:</strong> Passiv mit Modalverben: <span class="grammar"><strong>müssen eingebaut werden</strong></span></p>
+<p><strong>Kreative Aufgabe:</strong> Erstellen Sie einen Wochenplan für gesunde Gewohnheiten mit den gelernten Vokabeln.</p>
+<h3 id="5-verbesserungen">5. Verbesserungen</h3>
+<p><strong>Schlüsselvokabeln:</strong><br />
+- <span class="vocabulary"><strong>aufwachen</strong> (wake up)</span><br />
+- <span class="vocabulary"><strong>Verbesserung</strong> (improvement)</span><br />
+- <span class="vocabulary"><strong>Faktoren</strong> (factors)</span><br />
+- <span class="vocabulary"><strong>ebenfalls</strong> (also)</span><br />
+- <span class="vocabulary"><strong>erhalten</strong> (receive)</span><br />
+- <span class="vocabulary"><strong>Leistungen</strong> (services)</span><br />
+- <span class="vocabulary"><strong>Konferenz</strong> (conference)</span><br />
+- <span class="vocabulary"><strong>Einnahme</strong> (intake)</span><br />
+- <span class="vocabulary"><strong>treiben</strong> (to do)</span><br />
+- <span class="vocabulary"><strong>verzichten</strong> (give up)</span></p>
+<p><strong>Grammatikfokus:</strong> Kommunikationsphrasen: <span class="communication"><strong>"Sie können umsonst an Gesundheitskursen teilnehmen!"</strong></span></p>
+<p><strong>Schreibübung:</strong> Beschreiben Sie Verbesserungen in Ihrem eigenen Leben mit den gelernten Vokabeln.</p>
+<h3 id="6-weitergabe-des-wissens">6. Weitergabe des Wissens</h3>
+<p><strong>Schlüsselvokabeln:</strong><br />
+- <span class="vocabulary"><strong>gleichzeitig</strong> (simultaneously)</span><br />
+- <span class="vocabulary"><strong>zunächst</strong> (initially)</span><br />
+- <span class="vocabulary"><strong>Schulter</strong> (shoulder)</span><br />
+- <span class="vocabulary"><strong>Abfalleimer</strong> (trash can)</span><br />
+- <span class="vocabulary"><strong>Verbände</strong> (bandages)</span><br />
+- <span class="vocabulary"><strong>Spritzen</strong> (syringes)</span><br />
+- <span class="vocabulary"><strong>überreden</strong> (persuade)</span><br />
+- <span class="vocabulary"><strong>ELLAS KOLUMNE</strong> (ELLA'S COLUMN)</span></p>
+<p><strong>Grammatikfokus:</strong> <br />
+- Kommunikationsphrasen: <span class="communication"><strong>"Was können Sie mir empfehlen?", "Mit regelmäßigen Pausen habe ich nur gute Erfahrungen gemacht"</strong></span><br />
+- Passiv mit Modalverben: <span class="grammar"><strong>muss geleert werden, müssen bestellt werden</strong></span></p>
+<p><strong>Gruppenaktivität:</strong> Geben Sie in Kleingruppen Ratschläge zu verschiedenen Gesundheitsthemen mit den gelernten Kommunikationsphrasen.</p>
+<hr />
+<h2 id="anleitung-zur-verwendung-der-zeitleiste">Anleitung zur Verwendung der Zeitleiste:</h2>
+<ol>
+<li>
+<p><strong>Chronologisches Verständnis</strong>: Folgen Sie der Zeitleiste, um die Geschichte von Frau Müller in chronologischer Reihenfolge zu verstehen.</p>
+</li>
+<li>
+<p><strong>Fokus auf Phasen</strong>: Konzentrieren Sie sich auf eine Phase nach der anderen und lernen Sie die zugehörigen Vokabeln und Grammatikstrukturen.</p>
+</li>
+<li>
+<p><strong>Interaktive Übungen</strong>: Nutzen Sie die vorgeschlagenen Übungen, Diskussionsfragen und Aktivitäten für jede Phase.</p>
+</li>
+<li>
+<p><strong>Eigene Zeitleiste erstellen</strong>: Erstellen Sie eine persönliche Zeitleiste zu einem Gesundheitsthema mit den gelernten Vokabeln und Grammatikstrukturen.</p>
+</li>
+<li>
+<p><strong>Verbindungen herstellen</strong>: Achten Sie auf die Verbindungen zwischen den verschiedenen Phasen und wie sich die Geschichte entwickelt.</p>
+</li>
+</ol>
+</body>
+</html>

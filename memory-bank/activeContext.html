@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Active Context</title>
+    
+<style>
+    body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        line-height: 1.6;
+        color: #333;
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+    h1, h2, h3, h4, h5, h6 {
+        margin-top: 24px;
+        margin-bottom: 16px;
+        font-weight: 600;
+        line-height: 1.25;
+    }
+    h1 {
+        font-size: 2em;
+        border-bottom: 1px solid #eaecef;
+        padding-bottom: 0.3em;
+    }
+    h2 {
+        font-size: 1.5em;
+        border-bottom: 1px solid #eaecef;
+        padding-bottom: 0.3em;
+    }
+    h3 {
+        font-size: 1.25em;
+    }
+    table {
+        border-collapse: collapse;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    th, td {
+        border: 1px solid #ddd;
+        padding: 8px 12px;
+        text-align: left;
+    }
+    th {
+        background-color: #f6f8fa;
+        font-weight: 600;
+    }
+    tr:nth-child(even) {
+        background-color: #f6f8fa;
+    }
+    blockquote {
+        padding: 0 1em;
+        color: #6a737d;
+        border-left: 0.25em solid #dfe2e5;
+        margin: 0 0 16px 0;
+    }
+    .vocabulary {
+        color: #e53935;
+        font-weight: bold;
+    }
+    .grammar {
+        color: #1e88e5;
+        font-weight: bold;
+    }
+    .example {
+        color: #43a047;
+        font-weight: bold;
+    }
+    .communication {
+        color: #8e24aa;
+        font-weight: bold;
+    }
+    hr {
+        height: 0.25em;
+        padding: 0;
+        margin: 24px 0;
+        background-color: #e1e4e8;
+        border: 0;
+    }
+    code {
+        font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+        background-color: rgba(27, 31, 35, 0.05);
+        padding: 0.2em 0.4em;
+        border-radius: 3px;
+    }
+    pre {
+        background-color: #f6f8fa;
+        border-radius: 3px;
+        padding: 16px;
+        overflow: auto;
+        font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+    }
+    .correct {
+        color: #43a047;
+    }
+    .incorrect {
+        color: #e53935;
+        text-decoration: line-through;
+    }
+    a {
+        color: #0366d6;
+        text-decoration: none;
+    }
+    a:hover {
+        text-decoration: underline;
+    }
+    /* Navigation bar */
+    .navbar {
+        background-color: #3f51b5;
+        color: white;
+        padding: 10px 20px;
+        margin-bottom: 20px;
+        border-radius: 5px;
+    }
+    .navbar a {
+        color: white;
+        margin-right: 15px;
+        text-decoration: none;
+    }
+    .navbar a:hover {
+        text-decoration: underline;
+    }
+</style>
+
+</head>
+<body>
+    <div class="navbar">
+        <a href="../../index.html">Home</a>
+        <a href="../../Lektion%231/README.html">Lektion 1</a>
+        <a href="../../Lektion%232/README.html">Lektion 2</a>
+        <a href="../../Lektion%233/README.html">Lektion 3</a>
+        <a href="../../Lektion%234/README.html">Lektion 4</a>
+        <a href="../../reference_docs/README.html">Reference</a>
+    </div>
+    <h1 id="active-context">Active Context</h1>
+<h2 id="current-work-focus">Current Work Focus</h2>
+<p>The project is focused on organizing and structuring German language learning materials for the Schritte B1.1 course, with a new emphasis on creating connections between concepts across different lessons. The materials are being prepared in multiple formats to support different learning approaches and tools, now enhanced with a comprehensive connection system.</p>
+<h2 id="recent-changes">Recent Changes</h2>
+<ul>
+<li>Created structured vocabulary lists for Lektion 1 and Lektion 2</li>
+<li>Developed grammar memorization materials for Lektion 2</li>
+<li>Established multiple file formats (CSV, Markdown) for different use cases</li>
+<li>Implemented semantic categorization for vocabulary in memorization-optimized files</li>
+<li>Added visual elements and memory aids to grammar explanations</li>
+<li><strong>Created a comprehensive connection system</strong> with the following components:</li>
+<li>GermanConnections.md: Central hub for all connections with tagging system</li>
+<li>GrammarProgression.md: Focused view of grammar concept progression</li>
+<li>VocabularyThemes.md: Thematic organization of vocabulary</li>
+<li>LearningPathways.md: Structured learning routes based on goals and preferences</li>
+<li>GermanLearningHub.md: Central index connecting all connection files</li>
+</ul>
+<h2 id="next-steps">Next Steps</h2>
+<ol>
+<li>Continue developing materials for subsequent lessons (Lektion 3 and beyond)</li>
+<li>Enhance existing materials with additional examples and context</li>
+<li>Create consistency checks to ensure uniform formatting across all files</li>
+<li>Develop additional grammar memorization files for other lessons</li>
+<li>Consider creating audio components for pronunciation practice</li>
+<li><strong>Expand the connection system</strong> as new lessons are added</li>
+<li><strong>Develop practice exercises</strong> that leverage the connection system</li>
+<li><strong>Create specialized connection files</strong> for specific aspects of German learning</li>
+</ol>
+<h2 id="active-decisions-and-considerations">Active Decisions and Considerations</h2>
+<ul>
+<li><strong>File Format Strategy</strong>: Using both CSV and Markdown to balance simplicity (for Anki import) with rich formatting (for study materials)</li>
+<li><strong>Content Organization</strong>: Grouping vocabulary by semantic categories rather than alphabetically to enhance contextual learning</li>
+<li><strong>Visual Learning</strong>: Incorporating emoji, tables, and code blocks to make materials more engaging and memorable</li>
+<li><strong>Grammar Connections</strong>: Explicitly showing connections between grammar concepts across different proficiency levels (A1, A2, B1.1)</li>
+<li><strong>Learning Progression</strong>: Structuring materials to build upon previously learned concepts</li>
+<li><strong>Connection System</strong>: Using tags, mind maps, and cross-references to show relationships between concepts</li>
+<li><strong>Learning Pathways</strong>: Providing multiple structured approaches based on different learning goals and styles</li>
+<li><strong>Mermaid Diagrams</strong>: Using flowcharts and mind maps to visualize connections between concepts</li>
+</ul>
+<h2 id="current-challenges">Current Challenges</h2>
+<ul>
+<li>Maintaining consistency across different file formats</li>
+<li>Balancing comprehensive coverage with focused, manageable learning units</li>
+<li>Ensuring all materials follow established patterns and conventions</li>
+<li>Creating engaging content that facilitates effective memorization</li>
+<li>Planning for scalability as more lessons are added</li>
+<li><strong>Keeping the connection system updated</strong> as new materials are developed</li>
+<li><strong>Ensuring the connection system remains user-friendly</strong> and doesn't become overwhelming</li>
+</ul>
+<h2 id="immediate-focus">Immediate Focus</h2>
+<ul>
+<li>Complete documentation of existing materials</li>
+<li>Establish clear templates for future lesson materials</li>
+<li>Review current materials for consistency and completeness</li>
+<li>Prepare for development of Lektion 3 materials</li>
+<li><strong>Integrate the connection system</strong> with future lesson development</li>
+<li><strong>Gather user feedback</strong> on the connection system's effectiveness</li>
+</ul>
+</body>
+</html>

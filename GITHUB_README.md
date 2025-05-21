@@ -74,6 +74,15 @@ To host these materials on GitHub Pages:
 
 Your site will be published at `https://yourusername.github.io/repository-name/`.
 
+### Special Characters in URLs
+
+This repository uses folder names with special characters (e.g., `Lektion#1`). Since the `#` character has special meaning in URLs (it denotes a fragment identifier), we've implemented the following solutions:
+
+1. **URL Encoding**: All links in HTML files use URL-encoded paths (e.g., `Lektion%231` instead of `Lektion#1`)
+2. **Automatic Conversion**: The `convert_md_to_html.py` script automatically handles URL encoding when converting Markdown to HTML
+
+If you encounter any "File not found" errors when navigating the site, check that the links are properly URL-encoded.
+
 ## 📝 Contributing
 
 Contributions to improve these learning materials are welcome! Please feel free to submit pull requests or open issues to suggest improvements.

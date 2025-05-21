@@ -1,8 +1,6 @@
 #!/usr/bin/env python3
 """
-Convert Markdown files to HTML for GitHub Pages
-This script converts all Markdown files in the repository to HTML files
-while preserving the color coding and formatting.
+Convert Lektion#4 Markdown files to HTML for GitHub Pages
 """
 
 import os
@@ -12,7 +10,7 @@ import markdown
 from pathlib import Path
 
 # Configuration
-INPUT_DIR = "."  # Current directory
+INPUT_DIR = "Lektion#4"  # Lektion#4 directory
 EXTENSIONS = [
     'markdown.extensions.tables',
     'markdown.extensions.fenced_code',
@@ -154,12 +152,12 @@ HTML_TEMPLATE = """<!DOCTYPE html>
 </head>
 <body>
     <div class="navbar">
-        <a href="../../index.html">Home</a>
-        <a href="../../Lektion%231/README.html">Lektion 1</a>
-        <a href="../../Lektion%232/README.html">Lektion 2</a>
-        <a href="../../Lektion%233/README.html">Lektion 3</a>
-        <a href="../../Lektion%234/README.html">Lektion 4</a>
-        <a href="../../reference_docs/README.html">Reference</a>
+        <a href="../index.html">Home</a>
+        <a href="../Lektion%231/README.html">Lektion 1</a>
+        <a href="../Lektion%232/README.html">Lektion 2</a>
+        <a href="../Lektion%233/README.html">Lektion 3</a>
+        <a href="../Lektion%234/README.html">Lektion 4</a>
+        <a href="../reference_docs/README.html">Reference</a>
     </div>
     {content}
 </body>
@@ -238,7 +236,7 @@ def find_md_files(directory):
 
 def main():
     """Main function to convert all Markdown files to HTML."""
-    print("Converting Markdown files to HTML...")
+    print("Converting Lektion#4 Markdown files to HTML...")
     
     # Find all Markdown files
     md_files = find_md_files(INPUT_DIR)

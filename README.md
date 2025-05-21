@@ -28,6 +28,7 @@ Each lesson directory contains:
 Lektion#X/
 ├── Core/
 │   ├── Grammar.md - Detailed grammar explanations
+│   ├── Grammar-Enhanced.html - Interactive grammar with mind maps
 │   └── Vocabulary.md - Thematically organized vocabulary
 ├── Practice/
 │   ├── Story.md - Story with grammar and vocabulary
@@ -58,6 +59,7 @@ The [`reference_docs/`](reference_docs/README.md) directory contains cross-lesso
 - **Consistent Structure**: All lessons follow the same format for easy navigation
 - **Bilingual Content**: German and English for better understanding
 - **Color-Coding System**: Red for vocabulary, blue for grammar, green for examples, purple for communication phrases
+- **Enhanced Grammar Files**: Interactive HTML versions with mind maps, memory tricks, and visual aids
 - **Comprehensive Study Plans**: Each lesson includes a detailed study plan with learning strategies
 - **Cross-Lesson References**: Reference documentation shows connections between concepts across lessons
 
@@ -84,15 +86,22 @@ All materials use a consistent color-coding system:
    - [Lesson 3 Study Plan](Lektion%233/Lektion%233-StudyPlan.md)
    - [Lesson 4 Study Plan](Lektion%234/Lektion%234-StudyPlan.md)
 
-3. Use the [reference documentation](reference_docs/README.md) to see connections between concepts
+3. Explore the enhanced grammar files for interactive learning:
+   - [Lesson 1 Enhanced Grammar](Lektion%231/Core/Grammar-Enhanced.html)
+   - [Lesson 2 Enhanced Grammar](Lektion%232/Core/Grammar-Enhanced.html)
+   - [Lesson 3 Enhanced Grammar](Lektion%233/Core/Grammar-Enhanced.html)
+   - [Lesson 4 Enhanced Grammar](Lektion%234/Core/Grammar-Enhanced.html)
 
-4. Explore the [Templates directory](Templates/README.md) if you want to create your own lesson materials
+4. Use the [reference documentation](reference_docs/README.md) to see connections between concepts
+
+5. Explore the [Templates directory](Templates/README.md) if you want to create your own lesson materials
 
 ## Learning Approach
 
 These materials are designed for a structured approach to learning German:
 
 1. **Core Learning**: Study the grammar and vocabulary materials
+   - Use the enhanced grammar files for visual learning with mind maps and memory aids
 2. **Application**: Read and work with the story to see concepts in context
 3. **Practice**: Use the dialogs and exercises to reinforce learning
 4. **Connections**: Use the reference documentation to understand how concepts connect across lessons

@@ -1,8 +1,6 @@
 #!/usr/bin/env python3
 """
-Convert Markdown files to HTML for GitHub Pages
-This script converts all Markdown files in the repository to HTML files
-while preserving the color coding and formatting.
+Convert all Markdown files in the repository to HTML for GitHub Pages
 """
 
 import os
@@ -154,20 +152,37 @@ HTML_TEMPLATE = """<!DOCTYPE html>
 </head>
 <body>
     <div class="navbar">
-        <a href="../../index.html">Home</a>
-        <a href="../../Lektion%231/README.html">Lektion 1</a>
-        <a href="../../Lektion%232/README.html">Lektion 2</a>
-        <a href="../../Lektion%233/README.html">Lektion 3</a>
-        <a href="../../Lektion%234/README.html">Lektion 4</a>
-        <a href="../../reference_docs/README.html">Reference</a>
+        <a href="{home_path}">Home</a>
+        <a href="{home_path}Lektion%231/README.html">Lektion 1</a>
+        <a href="{home_path}Lektion%232/README.html">Lektion 2</a>
+        <a href="{home_path}Lektion%233/README.html">Lektion 3</a>
+        <a href="{home_path}Lektion%234/README.html">Lektion 4</a>
+        <a href="{home_path}reference_docs/README.html">Reference</a>
     </div>
     {content}
 </body>
 </html>
 """
 
+def get_relative_path_to_root(file_path):
+    """Calculate the relative path from the file to the root directory."""
+    # Count the number of directories in the path
+    path_parts = os.path.normpath(file_path).split(os.sep)
+    # The relative path to root is '../' repeated for each directory level
+    return '../' * (len(path_parts) - 1)
+
 def convert_md_to_html(md_file_path):
     """Convert a Markdown file to HTML."""
+    # Skip files in the memory-bank directory
+    if 'memory-bank' in md_file_path or 'Templates' in md_file_path or 'backup_files' in md_file_path:
+        print(f"Skipping {md_file_path} (in excluded directory)")
+        return None
+    
+    # Skip GitHub-specific files
+    if os.path.basename(md_file_path) in ['GITHUB_README.md', 'LICENSE.md', '.github']:
+        print(f"Skipping {md_file_path} (GitHub-specific file)")
+        return None
+    
     # Read the Markdown file
     with open(md_file_path, 'r', encoding='utf-8') as f:
         md_content = f.read()
@@ -201,6 +216,9 @@ def convert_md_to_html(md_file_path):
         html_content
     )
     
+    # Calculate the relative path to the root directory
+    home_path = get_relative_path_to_root(md_file_path)
+    
     # Fix internal links (.md to .html) and encode special characters in URLs
     def url_encode_path(match):
         path = match.group(1)
@@ -214,6 +232,7 @@ def convert_md_to_html(md_file_path):
     html_document = HTML_TEMPLATE.format(
         title=title,
         css_styles=CSS_STYLES,
+        home_path=home_path,
         content=html_content
     )
     
@@ -238,7 +257,7 @@ def find_md_files(directory):
 
 def main():
     """Main function to convert all Markdown files to HTML."""
-    print("Converting Markdown files to HTML...")
+    print("Converting all Markdown files to HTML...")
     
     # Find all Markdown files
     md_files = find_md_files(INPUT_DIR)
@@ -249,7 +268,8 @@ def main():
     for md_file in md_files:
         try:
             html_file = convert_md_to_html(md_file)
-            converted_files.append(html_file)
+            if html_file:
+                converted_files.append(html_file)
         except Exception as e:
             print(f"Error converting {md_file}: {e}")
     

@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>System Patterns</title>
+    
+<style>
+    body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        line-height: 1.6;
+        color: #333;
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+    h1, h2, h3, h4, h5, h6 {
+        margin-top: 24px;
+        margin-bottom: 16px;
+        font-weight: 600;
+        line-height: 1.25;
+    }
+    h1 {
+        font-size: 2em;
+        border-bottom: 1px solid #eaecef;
+        padding-bottom: 0.3em;
+    }
+    h2 {
+        font-size: 1.5em;
+        border-bottom: 1px solid #eaecef;
+        padding-bottom: 0.3em;
+    }
+    h3 {
+        font-size: 1.25em;
+    }
+    table {
+        border-collapse: collapse;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    th, td {
+        border: 1px solid #ddd;
+        padding: 8px 12px;
+        text-align: left;
+    }
+    th {
+        background-color: #f6f8fa;
+        font-weight: 600;
+    }
+    tr:nth-child(even) {
+        background-color: #f6f8fa;
+    }
+    blockquote {
+        padding: 0 1em;
+        color: #6a737d;
+        border-left: 0.25em solid #dfe2e5;
+        margin: 0 0 16px 0;
+    }
+    .vocabulary {
+        color: #e53935;
+        font-weight: bold;
+    }
+    .grammar {
+        color: #1e88e5;
+        font-weight: bold;
+    }
+    .example {
+        color: #43a047;
+        font-weight: bold;
+    }
+    .communication {
+        color: #8e24aa;
+        font-weight: bold;
+    }
+    hr {
+        height: 0.25em;
+        padding: 0;
+        margin: 24px 0;
+        background-color: #e1e4e8;
+        border: 0;
+    }
+    code {
+        font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+        background-color: rgba(27, 31, 35, 0.05);
+        padding: 0.2em 0.4em;
+        border-radius: 3px;
+    }
+    pre {
+        background-color: #f6f8fa;
+        border-radius: 3px;
+        padding: 16px;
+        overflow: auto;
+        font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+    }
+    .correct {
+        color: #43a047;
+    }
+    .incorrect {
+        color: #e53935;
+        text-decoration: line-through;
+    }
+    a {
+        color: #0366d6;
+        text-decoration: none;
+    }
+    a:hover {
+        text-decoration: underline;
+    }
+    /* Navigation bar */
+    .navbar {
+        background-color: #3f51b5;
+        color: white;
+        padding: 10px 20px;
+        margin-bottom: 20px;
+        border-radius: 5px;
+    }
+    .navbar a {
+        color: white;
+        margin-right: 15px;
+        text-decoration: none;
+    }
+    .navbar a:hover {
+        text-decoration: underline;
+    }
+</style>
+
+</head>
+<body>
+    <div class="navbar">
+        <a href="../../index.html">Home</a>
+        <a href="../../Lektion%231/README.html">Lektion 1</a>
+        <a href="../../Lektion%232/README.html">Lektion 2</a>
+        <a href="../../Lektion%233/README.html">Lektion 3</a>
+        <a href="../../Lektion%234/README.html">Lektion 4</a>
+        <a href="../../reference_docs/README.html">Reference</a>
+    </div>
+    <h1 id="system-patterns">System Patterns</h1>
+<h2 id="file-organization">File Organization</h2>
+<div class="codehilite"><pre><span></span><code><span class="o">/</span><span class="n">Schritte</span><span class="o">-</span><span class="n">B1</span><span class="o">.</span><span class="mi">1</span>
+<span class="err">├──</span><span class="w"> </span><span class="n">Lektion</span><span class="c1">#1.csv                    # Vocabulary for Lesson 1 in CSV format</span>
+<span class="err">├──</span><span class="w"> </span><span class="n">Lektion</span><span class="c1">#2.csv                    # Vocabulary for Lesson 2 in CSV format</span>
+<span class="err">├──</span><span class="w"> </span><span class="n">Lektion</span><span class="c1">#2-Grammar-Memorization.md # Grammar concepts for Lesson 2 in memorization format</span>
+<span class="err">├──</span><span class="w"> </span><span class="n">Lektion</span><span class="c1">#2-Notion.csv             # Lesson 2 vocabulary exported from Notion in CSV</span>
+<span class="err">├──</span><span class="w"> </span><span class="n">Lektion</span><span class="c1">#2-Notion.md              # Lesson 2 vocabulary in Notion-friendly Markdown</span>
+<span class="err">└──</span><span class="w"> </span><span class="n">Lektion</span><span class="c1">#2-Notion-Memorization.md # Lesson 2 vocabulary in memorization-optimized format</span>
+</code></pre></div>
+
+<h2 id="file-naming-conventions">File Naming Conventions</h2>
+<ul>
+<li><code>Lektion#[number].csv</code>: Basic vocabulary lists in CSV format</li>
+<li><code>Lektion#[number]-Grammar-Memorization.md</code>: Grammar concepts in memorization format</li>
+<li><code>Lektion#[number]-Notion.csv</code>: Vocabulary exported from Notion in CSV format</li>
+<li><code>Lektion#[number]-Notion.md</code>: Vocabulary in Notion-friendly Markdown format</li>
+<li><code>Lektion#[number]-Notion-Memorization.md</code>: Vocabulary in memorization-optimized format</li>
+</ul>
+<h2 id="content-structure-patterns">Content Structure Patterns</h2>
+<h3 id="csv-files">CSV Files</h3>
+<ul>
+<li>Two-column format: German term/phrase and English translation</li>
+<li>May include example sentences embedded with HTML line breaks (<code>&lt;br&gt;</code>)</li>
+<li>Format optimized for import into Anki or other flashcard systems</li>
+</ul>
+<h3 id="grammar-memorization-files">Grammar Memorization Files</h3>
+<ul>
+<li>Structured with clear headings and subheadings</li>
+<li>Visual elements like emoji to enhance engagement</li>
+<li>Mind maps to show connections between concepts</li>
+<li>Tables for organized reference information</li>
+<li>Code blocks for syntax patterns and examples</li>
+<li>Colored text references for visual learning</li>
+<li>Memory tricks and mnemonics</li>
+<li>Practice exercises</li>
+<li>"What I Can Do Now" sections for progress tracking</li>
+</ul>
+<h3 id="notion-friendly-files">Notion-Friendly Files</h3>
+<ul>
+<li>Structured as tables with multiple columns</li>
+<li>Includes grammar information, examples in both languages</li>
+<li>Organized for easy reference and navigation in Notion</li>
+</ul>
+<h3 id="memorization-optimized-files">Memorization-Optimized Files</h3>
+<ul>
+<li>Content grouped by semantic categories (e.g., TV &amp; Entertainment, Adjectives &amp; Adverbs)</li>
+<li>Consistent format with German examples, translations, and English examples</li>
+<li>Visual markers (emoji flags) to distinguish languages</li>
+<li>Clear headings and subheadings for easy navigation</li>
+</ul>
+<h2 id="design-patterns">Design Patterns</h2>
+<h3 id="grammar-explanation-pattern">Grammar Explanation Pattern</h3>
+<ol>
+<li>Concept introduction ("What is it?")</li>
+<li>Syntax explanation ("How it works")</li>
+<li>Examples with translations</li>
+<li>Memory tricks</li>
+<li>Grammar connections to previous knowledge</li>
+<li>Practice exercises</li>
+</ol>
+<h3 id="vocabulary-organization-pattern">Vocabulary Organization Pattern</h3>
+<ol>
+<li>Group by semantic category</li>
+<li>Include grammar information (gender, plural forms, verb conjugation)</li>
+<li>Provide contextual examples</li>
+<li>Include translations</li>
+<li>Cross-reference related terms</li>
+</ol>
+<h3 id="visual-learning-elements">Visual Learning Elements</h3>
+<ul>
+<li>Emoji for engagement and visual markers</li>
+<li>Tables for organized information</li>
+<li>Code blocks for syntax patterns</li>
+<li>Mind maps for concept relationships</li>
+<li>Color coding for grammatical elements</li>
+</ul>
+</body>
+</html>
